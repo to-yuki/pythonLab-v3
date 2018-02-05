@@ -1,0 +1,13 @@
+{"list": 
+    [
+        {
+        "kind": "Auther",
+        "name": "Guido van Rossum",
+        "birthday": 1956
+        },{
+        "kind": "Language",
+        "name": "Python",
+        "birthday": 1991 
+        }
+    ]
+}

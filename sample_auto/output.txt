@@ -1,0 +1,2462 @@
+Control Identifiers:
+
+Dialog - '名前を付けて保存'    (L94, T209, R1054, B749)
+[u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58', u'Dialog', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Dialog']
+child_window(title="名前を付けて保存", class_name="#32770")
+   | 
+   | DUIViewWndClassName - ''    (L102, T275, R1046, B689)
+   | [u'DUIViewWndClassName', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DUIViewWndClassName']
+   | child_window(class_name="DUIViewWndClassName")
+   |    | 
+   |    | DirectUIHWND - ''    (L102, T275, R1046, B689)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND1', u'DirectUIHWND0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND0', u'DirectUIHWND', u'DirectUIHWND1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND']
+   |    | child_window(class_name="DirectUIHWND")
+   |    |    | 
+   |    |    | FloatNotifySink - ''    (L227, T635, R1041, B658)
+   |    |    | [u'FloatNotifySink0', u'FloatNotifySink1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58FloatNotifySink0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58FloatNotifySink1', u'FloatNotifySink', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58FloatNotifySink']
+   |    |    | child_window(class_name="FloatNotifySink")
+   |    |    |    | 
+   |    |    |    | ComboBox - 'datetime.txt'    (L227, T635, R1041, B658)
+   |    |    |    | [u'ComboBox0', u'ComboBox1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox1', u'ComboBox', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox']
+   |    |    |    | child_window(title="datetime.txt", class_name="ComboBox")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - 'datetime.txt'    (L230, T638, R1021, B655)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit0', u'Edit', u'Edit1', u'Edit0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit']
+   |    |    |    |    | child_window(title="datetime.txt", class_name="Edit")
+   |    |    |    | 
+   |    |    |    | Edit - 'datetime.txt'    (L230, T638, R1021, B655)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit0', u'Edit', u'Edit1', u'Edit0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit']
+   |    |    |    | child_window(title="datetime.txt", class_name="Edit")
+   |    |    | 
+   |    |    | ComboBox - 'datetime.txt'    (L227, T635, R1041, B658)
+   |    |    | [u'ComboBox0', u'ComboBox1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox1', u'ComboBox', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox']
+   |    |    | child_window(title="datetime.txt", class_name="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - 'datetime.txt'    (L230, T638, R1021, B655)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit0', u'Edit', u'Edit1', u'Edit0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit']
+   |    |    |    | child_window(title="datetime.txt", class_name="Edit")
+   |    |    | 
+   |    |    | Edit - 'datetime.txt'    (L230, T638, R1021, B655)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit0', u'Edit', u'Edit1', u'Edit0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit']
+   |    |    | child_window(title="datetime.txt", class_name="Edit")
+   |    |    | 
+   |    |    | CtrlNotifySink - ''    (L102, T306, R258, B624)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink1', u'CtrlNotifySink0', u'CtrlNotifySink1', u'CtrlNotifySink', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    | 
+   |    |    |    | NamespaceTreeControl - 'Namespace Tree Control'    (L102, T306, R258, B624)
+   |    |    |    | [u'Namespace Tree ControlNamespaceTreeControl', u'NamespaceTreeControl', u'Namespace Tree Control', u'Namespace Tree Control1', u'Namespace Tree Control0']
+   |    |    |    | child_window(title="Namespace Tree Control", class_name="NamespaceTreeControl")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Namespace Tree Control'    (L102, T306, R102, B306)
+   |    |    |    |    | [u'Static1', u'Static', u'Static0', u'Namespace Tree ControlStatic', u'Namespace Tree Control2']
+   |    |    |    |    | child_window(title="Namespace Tree Control", class_name="Static")
+   |    |    |    |    | 
+   |    |    |    |    | TreeView - 'ツリー表示'    (L102, T306, R258, B624)
+   |    |    |    |    | ['TreeView', u'\u30c4\u30ea\u30fc\u8868\u793aTreeView', u'\u30c4\u30ea\u30fc\u8868\u793a']
+   |    |    |    |    | child_window(title="ツリー表示", class_name="SysTreeView32")
+   |    |    |    | 
+   |    |    |    | Static - 'Namespace Tree Control'    (L102, T306, R102, B306)
+   |    |    |    | [u'Static1', u'Static', u'Static0', u'Namespace Tree ControlStatic', u'Namespace Tree Control2']
+   |    |    |    | child_window(title="Namespace Tree Control", class_name="Static")
+   |    |    |    | 
+   |    |    |    | TreeView - 'ツリー表示'    (L102, T306, R258, B624)
+   |    |    |    | ['TreeView', u'\u30c4\u30ea\u30fc\u8868\u793aTreeView', u'\u30c4\u30ea\u30fc\u8868\u793a']
+   |    |    |    | child_window(title="ツリー表示", class_name="SysTreeView32")
+   |    |    | 
+   |    |    | NamespaceTreeControl - 'Namespace Tree Control'    (L102, T306, R258, B624)
+   |    |    | [u'Namespace Tree ControlNamespaceTreeControl', u'NamespaceTreeControl', u'Namespace Tree Control', u'Namespace Tree Control1', u'Namespace Tree Control0']
+   |    |    | child_window(title="Namespace Tree Control", class_name="NamespaceTreeControl")
+   |    |    |    | 
+   |    |    |    | Static - 'Namespace Tree Control'    (L102, T306, R102, B306)
+   |    |    |    | [u'Static1', u'Static', u'Static0', u'Namespace Tree ControlStatic', u'Namespace Tree Control2']
+   |    |    |    | child_window(title="Namespace Tree Control", class_name="Static")
+   |    |    |    | 
+   |    |    |    | TreeView - 'ツリー表示'    (L102, T306, R258, B624)
+   |    |    |    | ['TreeView', u'\u30c4\u30ea\u30fc\u8868\u793aTreeView', u'\u30c4\u30ea\u30fc\u8868\u793a']
+   |    |    |    | child_window(title="ツリー表示", class_name="SysTreeView32")
+   |    |    | 
+   |    |    | Static - 'Namespace Tree Control'    (L102, T306, R102, B306)
+   |    |    | [u'Static1', u'Static', u'Static0', u'Namespace Tree ControlStatic', u'Namespace Tree Control2']
+   |    |    | child_window(title="Namespace Tree Control", class_name="Static")
+   |    |    | 
+   |    |    | TreeView - 'ツリー表示'    (L102, T306, R258, B624)
+   |    |    | ['TreeView', u'\u30c4\u30ea\u30fc\u8868\u793aTreeView', u'\u30c4\u30ea\u30fc\u8868\u793a']
+   |    |    | child_window(title="ツリー表示", class_name="SysTreeView32")
+   |    |    | 
+   |    |    | CtrlNotifySink - ''    (L262, T306, R1046, B624)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink2', u'CtrlNotifySink2']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    | 
+   |    |    |    | SHELLDLL_DefView - 'ShellView'    (L262, T306, R1046, B624)
+   |    |    |    | [u'ShellViewSHELLDLL_DefView', u'SHELLDLL_DefView', u'ShellView']
+   |    |    |    | child_window(title="ShellView", class_name="SHELLDLL_DefView")
+   |    |    |    |    | 
+   |    |    |    |    | DirectUIHWND - ''    (L262, T306, R1046, B624)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND2', u'DirectUIHWND2']
+   |    |    |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    |    |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    |    |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | DirectUIHWND - ''    (L262, T306, R1046, B624)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND2', u'DirectUIHWND2']
+   |    |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    |    | 
+   |    |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | SHELLDLL_DefView - 'ShellView'    (L262, T306, R1046, B624)
+   |    |    | [u'ShellViewSHELLDLL_DefView', u'SHELLDLL_DefView', u'ShellView']
+   |    |    | child_window(title="ShellView", class_name="SHELLDLL_DefView")
+   |    |    |    | 
+   |    |    |    | DirectUIHWND - ''    (L262, T306, R1046, B624)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND2', u'DirectUIHWND2']
+   |    |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    |    | 
+   |    |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | DirectUIHWND - ''    (L262, T306, R1046, B624)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND2', u'DirectUIHWND2']
+   |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    | 
+   |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | FloatNotifySink - ''    (L102, T275, R102, B275)
+   |    |    | [u'FloatNotifySink2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58FloatNotifySink2']
+   |    |    | child_window(class_name="FloatNotifySink")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L102, T275, R102, B275)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Button', u'Button1', u'Button0', u'Button']
+   |    |    |    | child_window(class_name="Button")
+   |    |    | 
+   |    |    | Button - ''    (L102, T275, R102, B275)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Button', u'Button1', u'Button0', u'Button']
+   |    |    | child_window(class_name="Button")
+   |    |    | 
+   |    |    | FloatNotifySink - ''    (L227, T660, R1041, B683)
+   |    |    | [u'FloatNotifySink3', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58FloatNotifySink3']
+   |    |    | child_window(class_name="FloatNotifySink")
+   |    |    |    | 
+   |    |    |    | ComboBox - 'テキスト文書 (*.txt)'    (L227, T660, R1041, B683)
+   |    |    |    | [u'ComboBox2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox2']
+   |    |    |    | child_window(title="テキスト文書 (*.txt)", class_name="ComboBox")
+   |    |    | 
+   |    |    | ComboBox - 'テキスト文書 (*.txt)'    (L227, T660, R1041, B683)
+   |    |    | [u'ComboBox2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox2']
+   |    |    | child_window(title="テキスト文書 (*.txt)", class_name="ComboBox")
+   |    | 
+   |    | FloatNotifySink - ''    (L227, T635, R1041, B658)
+   |    | [u'FloatNotifySink0', u'FloatNotifySink1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58FloatNotifySink0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58FloatNotifySink1', u'FloatNotifySink', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58FloatNotifySink']
+   |    | child_window(class_name="FloatNotifySink")
+   |    |    | 
+   |    |    | ComboBox - 'datetime.txt'    (L227, T635, R1041, B658)
+   |    |    | [u'ComboBox0', u'ComboBox1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox1', u'ComboBox', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox']
+   |    |    | child_window(title="datetime.txt", class_name="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - 'datetime.txt'    (L230, T638, R1021, B655)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit0', u'Edit', u'Edit1', u'Edit0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit']
+   |    |    |    | child_window(title="datetime.txt", class_name="Edit")
+   |    |    | 
+   |    |    | Edit - 'datetime.txt'    (L230, T638, R1021, B655)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit0', u'Edit', u'Edit1', u'Edit0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit']
+   |    |    | child_window(title="datetime.txt", class_name="Edit")
+   |    | 
+   |    | ComboBox - 'datetime.txt'    (L227, T635, R1041, B658)
+   |    | [u'ComboBox0', u'ComboBox1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox1', u'ComboBox', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox']
+   |    | child_window(title="datetime.txt", class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - 'datetime.txt'    (L230, T638, R1021, B655)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit0', u'Edit', u'Edit1', u'Edit0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit']
+   |    |    | child_window(title="datetime.txt", class_name="Edit")
+   |    | 
+   |    | Edit - 'datetime.txt'    (L230, T638, R1021, B655)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit0', u'Edit', u'Edit1', u'Edit0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit']
+   |    | child_window(title="datetime.txt", class_name="Edit")
+   |    | 
+   |    | CtrlNotifySink - ''    (L102, T306, R258, B624)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink1', u'CtrlNotifySink0', u'CtrlNotifySink1', u'CtrlNotifySink', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    | 
+   |    |    | NamespaceTreeControl - 'Namespace Tree Control'    (L102, T306, R258, B624)
+   |    |    | [u'Namespace Tree ControlNamespaceTreeControl', u'NamespaceTreeControl', u'Namespace Tree Control', u'Namespace Tree Control1', u'Namespace Tree Control0']
+   |    |    | child_window(title="Namespace Tree Control", class_name="NamespaceTreeControl")
+   |    |    |    | 
+   |    |    |    | Static - 'Namespace Tree Control'    (L102, T306, R102, B306)
+   |    |    |    | [u'Static1', u'Static', u'Static0', u'Namespace Tree ControlStatic', u'Namespace Tree Control2']
+   |    |    |    | child_window(title="Namespace Tree Control", class_name="Static")
+   |    |    |    | 
+   |    |    |    | TreeView - 'ツリー表示'    (L102, T306, R258, B624)
+   |    |    |    | ['TreeView', u'\u30c4\u30ea\u30fc\u8868\u793aTreeView', u'\u30c4\u30ea\u30fc\u8868\u793a']
+   |    |    |    | child_window(title="ツリー表示", class_name="SysTreeView32")
+   |    |    | 
+   |    |    | Static - 'Namespace Tree Control'    (L102, T306, R102, B306)
+   |    |    | [u'Static1', u'Static', u'Static0', u'Namespace Tree ControlStatic', u'Namespace Tree Control2']
+   |    |    | child_window(title="Namespace Tree Control", class_name="Static")
+   |    |    | 
+   |    |    | TreeView - 'ツリー表示'    (L102, T306, R258, B624)
+   |    |    | ['TreeView', u'\u30c4\u30ea\u30fc\u8868\u793aTreeView', u'\u30c4\u30ea\u30fc\u8868\u793a']
+   |    |    | child_window(title="ツリー表示", class_name="SysTreeView32")
+   |    | 
+   |    | NamespaceTreeControl - 'Namespace Tree Control'    (L102, T306, R258, B624)
+   |    | [u'Namespace Tree ControlNamespaceTreeControl', u'NamespaceTreeControl', u'Namespace Tree Control', u'Namespace Tree Control1', u'Namespace Tree Control0']
+   |    | child_window(title="Namespace Tree Control", class_name="NamespaceTreeControl")
+   |    |    | 
+   |    |    | Static - 'Namespace Tree Control'    (L102, T306, R102, B306)
+   |    |    | [u'Static1', u'Static', u'Static0', u'Namespace Tree ControlStatic', u'Namespace Tree Control2']
+   |    |    | child_window(title="Namespace Tree Control", class_name="Static")
+   |    |    | 
+   |    |    | TreeView - 'ツリー表示'    (L102, T306, R258, B624)
+   |    |    | ['TreeView', u'\u30c4\u30ea\u30fc\u8868\u793aTreeView', u'\u30c4\u30ea\u30fc\u8868\u793a']
+   |    |    | child_window(title="ツリー表示", class_name="SysTreeView32")
+   |    | 
+   |    | Static - 'Namespace Tree Control'    (L102, T306, R102, B306)
+   |    | [u'Static1', u'Static', u'Static0', u'Namespace Tree ControlStatic', u'Namespace Tree Control2']
+   |    | child_window(title="Namespace Tree Control", class_name="Static")
+   |    | 
+   |    | TreeView - 'ツリー表示'    (L102, T306, R258, B624)
+   |    | ['TreeView', u'\u30c4\u30ea\u30fc\u8868\u793aTreeView', u'\u30c4\u30ea\u30fc\u8868\u793a']
+   |    | child_window(title="ツリー表示", class_name="SysTreeView32")
+   |    | 
+   |    | CtrlNotifySink - ''    (L262, T306, R1046, B624)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink2', u'CtrlNotifySink2']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    | 
+   |    |    | SHELLDLL_DefView - 'ShellView'    (L262, T306, R1046, B624)
+   |    |    | [u'ShellViewSHELLDLL_DefView', u'SHELLDLL_DefView', u'ShellView']
+   |    |    | child_window(title="ShellView", class_name="SHELLDLL_DefView")
+   |    |    |    | 
+   |    |    |    | DirectUIHWND - ''    (L262, T306, R1046, B624)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND2', u'DirectUIHWND2']
+   |    |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    |    | 
+   |    |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | DirectUIHWND - ''    (L262, T306, R1046, B624)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND2', u'DirectUIHWND2']
+   |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    | 
+   |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    | 
+   |    | SHELLDLL_DefView - 'ShellView'    (L262, T306, R1046, B624)
+   |    | [u'ShellViewSHELLDLL_DefView', u'SHELLDLL_DefView', u'ShellView']
+   |    | child_window(title="ShellView", class_name="SHELLDLL_DefView")
+   |    |    | 
+   |    |    | DirectUIHWND - ''    (L262, T306, R1046, B624)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND2', u'DirectUIHWND2']
+   |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    | 
+   |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    | 
+   |    | DirectUIHWND - ''    (L262, T306, R1046, B624)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND2', u'DirectUIHWND2']
+   |    | child_window(class_name="DirectUIHWND")
+   |    |    | 
+   |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    | 
+   |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    | 
+   |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    | child_window(class_name="ScrollBar")
+   |    | 
+   |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    | 
+   |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    | child_window(class_name="ScrollBar")
+   |    | 
+   |    | FloatNotifySink - ''    (L102, T275, R102, B275)
+   |    | [u'FloatNotifySink2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58FloatNotifySink2']
+   |    | child_window(class_name="FloatNotifySink")
+   |    |    | 
+   |    |    | Button - ''    (L102, T275, R102, B275)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Button', u'Button1', u'Button0', u'Button']
+   |    |    | child_window(class_name="Button")
+   |    | 
+   |    | Button - ''    (L102, T275, R102, B275)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Button', u'Button1', u'Button0', u'Button']
+   |    | child_window(class_name="Button")
+   |    | 
+   |    | FloatNotifySink - ''    (L227, T660, R1041, B683)
+   |    | [u'FloatNotifySink3', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58FloatNotifySink3']
+   |    | child_window(class_name="FloatNotifySink")
+   |    |    | 
+   |    |    | ComboBox - 'テキスト文書 (*.txt)'    (L227, T660, R1041, B683)
+   |    |    | [u'ComboBox2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox2']
+   |    |    | child_window(title="テキスト文書 (*.txt)", class_name="ComboBox")
+   |    | 
+   |    | ComboBox - 'テキスト文書 (*.txt)'    (L227, T660, R1041, B683)
+   |    | [u'ComboBox2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox2']
+   |    | child_window(title="テキスト文書 (*.txt)", class_name="ComboBox")
+   | 
+   | DirectUIHWND - ''    (L102, T275, R1046, B689)
+   | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND1', u'DirectUIHWND0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND0', u'DirectUIHWND', u'DirectUIHWND1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND']
+   | child_window(class_name="DirectUIHWND")
+   |    | 
+   |    | FloatNotifySink - ''    (L227, T635, R1041, B658)
+   |    | [u'FloatNotifySink0', u'FloatNotifySink1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58FloatNotifySink0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58FloatNotifySink1', u'FloatNotifySink', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58FloatNotifySink']
+   |    | child_window(class_name="FloatNotifySink")
+   |    |    | 
+   |    |    | ComboBox - 'datetime.txt'    (L227, T635, R1041, B658)
+   |    |    | [u'ComboBox0', u'ComboBox1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox1', u'ComboBox', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox']
+   |    |    | child_window(title="datetime.txt", class_name="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - 'datetime.txt'    (L230, T638, R1021, B655)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit0', u'Edit', u'Edit1', u'Edit0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit']
+   |    |    |    | child_window(title="datetime.txt", class_name="Edit")
+   |    |    | 
+   |    |    | Edit - 'datetime.txt'    (L230, T638, R1021, B655)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit0', u'Edit', u'Edit1', u'Edit0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit']
+   |    |    | child_window(title="datetime.txt", class_name="Edit")
+   |    | 
+   |    | ComboBox - 'datetime.txt'    (L227, T635, R1041, B658)
+   |    | [u'ComboBox0', u'ComboBox1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox1', u'ComboBox', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox']
+   |    | child_window(title="datetime.txt", class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - 'datetime.txt'    (L230, T638, R1021, B655)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit0', u'Edit', u'Edit1', u'Edit0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit']
+   |    |    | child_window(title="datetime.txt", class_name="Edit")
+   |    | 
+   |    | Edit - 'datetime.txt'    (L230, T638, R1021, B655)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit0', u'Edit', u'Edit1', u'Edit0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit']
+   |    | child_window(title="datetime.txt", class_name="Edit")
+   |    | 
+   |    | CtrlNotifySink - ''    (L102, T306, R258, B624)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink1', u'CtrlNotifySink0', u'CtrlNotifySink1', u'CtrlNotifySink', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    | 
+   |    |    | NamespaceTreeControl - 'Namespace Tree Control'    (L102, T306, R258, B624)
+   |    |    | [u'Namespace Tree ControlNamespaceTreeControl', u'NamespaceTreeControl', u'Namespace Tree Control', u'Namespace Tree Control1', u'Namespace Tree Control0']
+   |    |    | child_window(title="Namespace Tree Control", class_name="NamespaceTreeControl")
+   |    |    |    | 
+   |    |    |    | Static - 'Namespace Tree Control'    (L102, T306, R102, B306)
+   |    |    |    | [u'Static1', u'Static', u'Static0', u'Namespace Tree ControlStatic', u'Namespace Tree Control2']
+   |    |    |    | child_window(title="Namespace Tree Control", class_name="Static")
+   |    |    |    | 
+   |    |    |    | TreeView - 'ツリー表示'    (L102, T306, R258, B624)
+   |    |    |    | ['TreeView', u'\u30c4\u30ea\u30fc\u8868\u793aTreeView', u'\u30c4\u30ea\u30fc\u8868\u793a']
+   |    |    |    | child_window(title="ツリー表示", class_name="SysTreeView32")
+   |    |    | 
+   |    |    | Static - 'Namespace Tree Control'    (L102, T306, R102, B306)
+   |    |    | [u'Static1', u'Static', u'Static0', u'Namespace Tree ControlStatic', u'Namespace Tree Control2']
+   |    |    | child_window(title="Namespace Tree Control", class_name="Static")
+   |    |    | 
+   |    |    | TreeView - 'ツリー表示'    (L102, T306, R258, B624)
+   |    |    | ['TreeView', u'\u30c4\u30ea\u30fc\u8868\u793aTreeView', u'\u30c4\u30ea\u30fc\u8868\u793a']
+   |    |    | child_window(title="ツリー表示", class_name="SysTreeView32")
+   |    | 
+   |    | NamespaceTreeControl - 'Namespace Tree Control'    (L102, T306, R258, B624)
+   |    | [u'Namespace Tree ControlNamespaceTreeControl', u'NamespaceTreeControl', u'Namespace Tree Control', u'Namespace Tree Control1', u'Namespace Tree Control0']
+   |    | child_window(title="Namespace Tree Control", class_name="NamespaceTreeControl")
+   |    |    | 
+   |    |    | Static - 'Namespace Tree Control'    (L102, T306, R102, B306)
+   |    |    | [u'Static1', u'Static', u'Static0', u'Namespace Tree ControlStatic', u'Namespace Tree Control2']
+   |    |    | child_window(title="Namespace Tree Control", class_name="Static")
+   |    |    | 
+   |    |    | TreeView - 'ツリー表示'    (L102, T306, R258, B624)
+   |    |    | ['TreeView', u'\u30c4\u30ea\u30fc\u8868\u793aTreeView', u'\u30c4\u30ea\u30fc\u8868\u793a']
+   |    |    | child_window(title="ツリー表示", class_name="SysTreeView32")
+   |    | 
+   |    | Static - 'Namespace Tree Control'    (L102, T306, R102, B306)
+   |    | [u'Static1', u'Static', u'Static0', u'Namespace Tree ControlStatic', u'Namespace Tree Control2']
+   |    | child_window(title="Namespace Tree Control", class_name="Static")
+   |    | 
+   |    | TreeView - 'ツリー表示'    (L102, T306, R258, B624)
+   |    | ['TreeView', u'\u30c4\u30ea\u30fc\u8868\u793aTreeView', u'\u30c4\u30ea\u30fc\u8868\u793a']
+   |    | child_window(title="ツリー表示", class_name="SysTreeView32")
+   |    | 
+   |    | CtrlNotifySink - ''    (L262, T306, R1046, B624)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink2', u'CtrlNotifySink2']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    | 
+   |    |    | SHELLDLL_DefView - 'ShellView'    (L262, T306, R1046, B624)
+   |    |    | [u'ShellViewSHELLDLL_DefView', u'SHELLDLL_DefView', u'ShellView']
+   |    |    | child_window(title="ShellView", class_name="SHELLDLL_DefView")
+   |    |    |    | 
+   |    |    |    | DirectUIHWND - ''    (L262, T306, R1046, B624)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND2', u'DirectUIHWND2']
+   |    |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    |    | 
+   |    |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | DirectUIHWND - ''    (L262, T306, R1046, B624)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND2', u'DirectUIHWND2']
+   |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    | 
+   |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    | 
+   |    | SHELLDLL_DefView - 'ShellView'    (L262, T306, R1046, B624)
+   |    | [u'ShellViewSHELLDLL_DefView', u'SHELLDLL_DefView', u'ShellView']
+   |    | child_window(title="ShellView", class_name="SHELLDLL_DefView")
+   |    |    | 
+   |    |    | DirectUIHWND - ''    (L262, T306, R1046, B624)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND2', u'DirectUIHWND2']
+   |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    | 
+   |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    | 
+   |    | DirectUIHWND - ''    (L262, T306, R1046, B624)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND2', u'DirectUIHWND2']
+   |    | child_window(class_name="DirectUIHWND")
+   |    |    | 
+   |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    | 
+   |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    | 
+   |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    | child_window(class_name="ScrollBar")
+   |    | 
+   |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    | 
+   |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    | child_window(class_name="ScrollBar")
+   |    | 
+   |    | FloatNotifySink - ''    (L102, T275, R102, B275)
+   |    | [u'FloatNotifySink2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58FloatNotifySink2']
+   |    | child_window(class_name="FloatNotifySink")
+   |    |    | 
+   |    |    | Button - ''    (L102, T275, R102, B275)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Button', u'Button1', u'Button0', u'Button']
+   |    |    | child_window(class_name="Button")
+   |    | 
+   |    | Button - ''    (L102, T275, R102, B275)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Button', u'Button1', u'Button0', u'Button']
+   |    | child_window(class_name="Button")
+   |    | 
+   |    | FloatNotifySink - ''    (L227, T660, R1041, B683)
+   |    | [u'FloatNotifySink3', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58FloatNotifySink3']
+   |    | child_window(class_name="FloatNotifySink")
+   |    |    | 
+   |    |    | ComboBox - 'テキスト文書 (*.txt)'    (L227, T660, R1041, B683)
+   |    |    | [u'ComboBox2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox2']
+   |    |    | child_window(title="テキスト文書 (*.txt)", class_name="ComboBox")
+   |    | 
+   |    | ComboBox - 'テキスト文書 (*.txt)'    (L227, T660, R1041, B683)
+   |    | [u'ComboBox2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox2']
+   |    | child_window(title="テキスト文書 (*.txt)", class_name="ComboBox")
+   | 
+   | FloatNotifySink - ''    (L227, T635, R1041, B658)
+   | [u'FloatNotifySink0', u'FloatNotifySink1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58FloatNotifySink0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58FloatNotifySink1', u'FloatNotifySink', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58FloatNotifySink']
+   | child_window(class_name="FloatNotifySink")
+   |    | 
+   |    | ComboBox - 'datetime.txt'    (L227, T635, R1041, B658)
+   |    | [u'ComboBox0', u'ComboBox1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox1', u'ComboBox', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox']
+   |    | child_window(title="datetime.txt", class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - 'datetime.txt'    (L230, T638, R1021, B655)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit0', u'Edit', u'Edit1', u'Edit0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit']
+   |    |    | child_window(title="datetime.txt", class_name="Edit")
+   |    | 
+   |    | Edit - 'datetime.txt'    (L230, T638, R1021, B655)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit0', u'Edit', u'Edit1', u'Edit0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit']
+   |    | child_window(title="datetime.txt", class_name="Edit")
+   | 
+   | ComboBox - 'datetime.txt'    (L227, T635, R1041, B658)
+   | [u'ComboBox0', u'ComboBox1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox1', u'ComboBox', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox']
+   | child_window(title="datetime.txt", class_name="ComboBox")
+   |    | 
+   |    | Edit - 'datetime.txt'    (L230, T638, R1021, B655)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit0', u'Edit', u'Edit1', u'Edit0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit']
+   |    | child_window(title="datetime.txt", class_name="Edit")
+   | 
+   | Edit - 'datetime.txt'    (L230, T638, R1021, B655)
+   | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit0', u'Edit', u'Edit1', u'Edit0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit']
+   | child_window(title="datetime.txt", class_name="Edit")
+   | 
+   | CtrlNotifySink - ''    (L102, T306, R258, B624)
+   | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink1', u'CtrlNotifySink0', u'CtrlNotifySink1', u'CtrlNotifySink', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink']
+   | child_window(class_name="CtrlNotifySink")
+   |    | 
+   |    | NamespaceTreeControl - 'Namespace Tree Control'    (L102, T306, R258, B624)
+   |    | [u'Namespace Tree ControlNamespaceTreeControl', u'NamespaceTreeControl', u'Namespace Tree Control', u'Namespace Tree Control1', u'Namespace Tree Control0']
+   |    | child_window(title="Namespace Tree Control", class_name="NamespaceTreeControl")
+   |    |    | 
+   |    |    | Static - 'Namespace Tree Control'    (L102, T306, R102, B306)
+   |    |    | [u'Static1', u'Static', u'Static0', u'Namespace Tree ControlStatic', u'Namespace Tree Control2']
+   |    |    | child_window(title="Namespace Tree Control", class_name="Static")
+   |    |    | 
+   |    |    | TreeView - 'ツリー表示'    (L102, T306, R258, B624)
+   |    |    | ['TreeView', u'\u30c4\u30ea\u30fc\u8868\u793aTreeView', u'\u30c4\u30ea\u30fc\u8868\u793a']
+   |    |    | child_window(title="ツリー表示", class_name="SysTreeView32")
+   |    | 
+   |    | Static - 'Namespace Tree Control'    (L102, T306, R102, B306)
+   |    | [u'Static1', u'Static', u'Static0', u'Namespace Tree ControlStatic', u'Namespace Tree Control2']
+   |    | child_window(title="Namespace Tree Control", class_name="Static")
+   |    | 
+   |    | TreeView - 'ツリー表示'    (L102, T306, R258, B624)
+   |    | ['TreeView', u'\u30c4\u30ea\u30fc\u8868\u793aTreeView', u'\u30c4\u30ea\u30fc\u8868\u793a']
+   |    | child_window(title="ツリー表示", class_name="SysTreeView32")
+   | 
+   | NamespaceTreeControl - 'Namespace Tree Control'    (L102, T306, R258, B624)
+   | [u'Namespace Tree ControlNamespaceTreeControl', u'NamespaceTreeControl', u'Namespace Tree Control', u'Namespace Tree Control1', u'Namespace Tree Control0']
+   | child_window(title="Namespace Tree Control", class_name="NamespaceTreeControl")
+   |    | 
+   |    | Static - 'Namespace Tree Control'    (L102, T306, R102, B306)
+   |    | [u'Static1', u'Static', u'Static0', u'Namespace Tree ControlStatic', u'Namespace Tree Control2']
+   |    | child_window(title="Namespace Tree Control", class_name="Static")
+   |    | 
+   |    | TreeView - 'ツリー表示'    (L102, T306, R258, B624)
+   |    | ['TreeView', u'\u30c4\u30ea\u30fc\u8868\u793aTreeView', u'\u30c4\u30ea\u30fc\u8868\u793a']
+   |    | child_window(title="ツリー表示", class_name="SysTreeView32")
+   | 
+   | Static - 'Namespace Tree Control'    (L102, T306, R102, B306)
+   | [u'Static1', u'Static', u'Static0', u'Namespace Tree ControlStatic', u'Namespace Tree Control2']
+   | child_window(title="Namespace Tree Control", class_name="Static")
+   | 
+   | TreeView - 'ツリー表示'    (L102, T306, R258, B624)
+   | ['TreeView', u'\u30c4\u30ea\u30fc\u8868\u793aTreeView', u'\u30c4\u30ea\u30fc\u8868\u793a']
+   | child_window(title="ツリー表示", class_name="SysTreeView32")
+   | 
+   | CtrlNotifySink - ''    (L262, T306, R1046, B624)
+   | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink2', u'CtrlNotifySink2']
+   | child_window(class_name="CtrlNotifySink")
+   |    | 
+   |    | SHELLDLL_DefView - 'ShellView'    (L262, T306, R1046, B624)
+   |    | [u'ShellViewSHELLDLL_DefView', u'SHELLDLL_DefView', u'ShellView']
+   |    | child_window(title="ShellView", class_name="SHELLDLL_DefView")
+   |    |    | 
+   |    |    | DirectUIHWND - ''    (L262, T306, R1046, B624)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND2', u'DirectUIHWND2']
+   |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    | 
+   |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    | 
+   |    | DirectUIHWND - ''    (L262, T306, R1046, B624)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND2', u'DirectUIHWND2']
+   |    | child_window(class_name="DirectUIHWND")
+   |    |    | 
+   |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    | 
+   |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    | 
+   |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    | child_window(class_name="ScrollBar")
+   |    | 
+   |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    | 
+   |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    | child_window(class_name="ScrollBar")
+   | 
+   | SHELLDLL_DefView - 'ShellView'    (L262, T306, R1046, B624)
+   | [u'ShellViewSHELLDLL_DefView', u'SHELLDLL_DefView', u'ShellView']
+   | child_window(title="ShellView", class_name="SHELLDLL_DefView")
+   |    | 
+   |    | DirectUIHWND - ''    (L262, T306, R1046, B624)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND2', u'DirectUIHWND2']
+   |    | child_window(class_name="DirectUIHWND")
+   |    |    | 
+   |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    | 
+   |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    | 
+   |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    | child_window(class_name="ScrollBar")
+   |    | 
+   |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    | 
+   |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    | child_window(class_name="ScrollBar")
+   | 
+   | DirectUIHWND - ''    (L262, T306, R1046, B624)
+   | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND2', u'DirectUIHWND2']
+   | child_window(class_name="DirectUIHWND")
+   |    | 
+   |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    | 
+   |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    | child_window(class_name="ScrollBar")
+   |    | 
+   |    | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    | 
+   |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    | child_window(class_name="ScrollBar")
+   | 
+   | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink3', u'CtrlNotifySink3']
+   | child_window(class_name="CtrlNotifySink")
+   |    | 
+   |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   |    | child_window(class_name="ScrollBar")
+   | 
+   | ScrollBar - ''    (L262, T306, R262, B306)
+   | [u'ScrollBar', u'ScrollBar0', u'ScrollBar1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar1']
+   | child_window(class_name="ScrollBar")
+   | 
+   | CtrlNotifySink - ''    (L262, T306, R262, B306)
+   | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58CtrlNotifySink4', u'CtrlNotifySink4']
+   | child_window(class_name="CtrlNotifySink")
+   |    | 
+   |    | ScrollBar - ''    (L262, T306, R262, B306)
+   |    | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   |    | child_window(class_name="ScrollBar")
+   | 
+   | ScrollBar - ''    (L262, T306, R262, B306)
+   | [u'ScrollBar2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ScrollBar2']
+   | child_window(class_name="ScrollBar")
+   | 
+   | FloatNotifySink - ''    (L102, T275, R102, B275)
+   | [u'FloatNotifySink2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58FloatNotifySink2']
+   | child_window(class_name="FloatNotifySink")
+   |    | 
+   |    | Button - ''    (L102, T275, R102, B275)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Button', u'Button1', u'Button0', u'Button']
+   |    | child_window(class_name="Button")
+   | 
+   | Button - ''    (L102, T275, R102, B275)
+   | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Button', u'Button1', u'Button0', u'Button']
+   | child_window(class_name="Button")
+   | 
+   | FloatNotifySink - ''    (L227, T660, R1041, B683)
+   | [u'FloatNotifySink3', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58FloatNotifySink3']
+   | child_window(class_name="FloatNotifySink")
+   |    | 
+   |    | ComboBox - 'テキスト文書 (*.txt)'    (L227, T660, R1041, B683)
+   |    | [u'ComboBox2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox2']
+   |    | child_window(title="テキスト文書 (*.txt)", class_name="ComboBox")
+   | 
+   | ComboBox - 'テキスト文書 (*.txt)'    (L227, T660, R1041, B683)
+   | [u'ComboBox2', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox2']
+   | child_window(title="テキスト文書 (*.txt)", class_name="ComboBox")
+   | 
+   | Toolbar - ''    (L112, T708, R241, B729)
+   | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Toolbar', u'Toolbar\u30d5\u30a9\u30eb\u30c0\u30fc\u306e\u975e\u8868\u793a', u'Toolbar1', u'Toolbar0', 'Toolbar']
+   | child_window(class_name="ToolbarWindow32")
+   | 
+   | Static - '文字コード(&E):'    (L609, T708, R674, B723)
+   | [u'\u6587\u5b57\u30b3\u30fc\u30c9(&E):', u'Static2', u'\u6587\u5b57\u30b3\u30fc\u30c9(&E):Static']
+   | child_window(title="文字コード(&E):", class_name="Static")
+   | 
+   | ComboBox - 'ANSI'    (L679, T704, R829, B727)
+   | [u'ComboBox3', u'\u6587\u5b57\u30b3\u30fc\u30c9(&E):ComboBox']
+   | child_window(title="ANSI", class_name="ComboBox")
+   | 
+   | Button - '保存(&S)'    (L841, T703, R929, B729)
+   | [u'\u4fdd\u5b58(&S)', u'\u4fdd\u5b58(&S)Button', u'Button2']
+   | child_window(title="保存(&S)", class_name="Button")
+   | 
+   | Button - 'キャンセル'    (L941, T703, R1029, B729)
+   | [u'Button3', u'\u30ad\u30e3\u30f3\u30bb\u30ebButton', u'\u30ad\u30e3\u30f3\u30bb\u30eb']
+   | child_window(title="キャンセル", class_name="Button")
+   | 
+   | ScrollBar - ''    (L1029, T724, R1046, B741)
+   | [u'ScrollBar3', u'\u30ad\u30e3\u30f3\u30bb\u30ebScrollBar']
+   | child_window(class_name="ScrollBar")
+   | 
+   | Static - ''    (L219, T249, R735, B266)
+   | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Static1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Static0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Static', u'Static3']
+   | child_window(class_name="Static")
+   | 
+   | Static - ''    (L111, T253, R190, B283)
+   | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Static2', u'Static4']
+   | child_window(class_name="Static")
+   | 
+   | Static - ''    (L219, T272, R737, B295)
+   | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Static3', u'Static5']
+   | child_window(class_name="Static")
+   | 
+   | ListBox - ''    (L102, T275, R741, B662)
+   | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ListBox', u'ListBox']
+   | child_window(class_name="ListBox")
+   | 
+   | Static - ''    (L232, T240, R1029, B240)
+   | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Static4', u'Static6']
+   | child_window(class_name="Static")
+   | 
+   | Button - 'ヘルプ(&H)'    (L562, T673, R650, B699)
+   | [u'Button4', u'\u30d8\u30eb\u30d7(&H)', u'\u30d8\u30eb\u30d7(&H)Button']
+   | child_window(title="ヘルプ(&H)", class_name="Button")
+   | 
+   | WorkerW - ''    (L102, T240, R1046, B275)
+   | [u'WorkerW', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58WorkerW']
+   | child_window(class_name="WorkerW")
+   |    | 
+   |    | ReBar - ''    (L102, T240, R1046, B275)
+   |    | [u'ReBar\u30a2\u30c9\u30ec\u30b9', 'ReBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ReBar']
+   |    | child_window(class_name="ReBarWindow32")
+   |    |    | 
+   |    |    | TravelBand - ''    (L102, T240, R183, B272)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58TravelBand', u'TravelBand']
+   |    |    | child_window(class_name="TravelBand")
+   |    |    |    | 
+   |    |    |    | Toolbar - 'ナビゲーション ボタン'    (L106, T242, R183, B272)
+   |    |    |    | [u'\u30ca\u30d3\u30b2\u30fc\u30b7\u30e7\u30f3 \u30dc\u30bf\u30f3Toolbar', 'Toolbar2', u'\u30ca\u30d3\u30b2\u30fc\u30b7\u30e7\u30f3 \u30dc\u30bf\u30f3']
+   |    |    |    | child_window(title="ナビゲーション ボタン", class_name="ToolbarWindow32")
+   |    |    | 
+   |    |    | Toolbar - 'ナビゲーション ボタン'    (L106, T242, R183, B272)
+   |    |    | [u'\u30ca\u30d3\u30b2\u30fc\u30b7\u30e7\u30f3 \u30dc\u30bf\u30f3Toolbar', 'Toolbar2', u'\u30ca\u30d3\u30b2\u30fc\u30b7\u30e7\u30f3 \u30dc\u30bf\u30f3']
+   |    |    | child_window(title="ナビゲーション ボタン", class_name="ToolbarWindow32")
+   |    |    | 
+   |    |    | UpBand - ''    (L183, T241, R207, B270)
+   |    |    | [u'UpBand', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58UpBand']
+   |    |    | child_window(class_name="UpBand")
+   |    |    |    | 
+   |    |    |    | Toolbar - '上へバンド ツール バー'    (L183, T245, R207, B274)
+   |    |    |    | [u'\u4e0a\u3078\u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fc', 'Toolbar3', u'\u4e0a\u3078\u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fcToolbar']
+   |    |    |    | child_window(title="上へバンド ツール バー", class_name="ToolbarWindow32")
+   |    |    | 
+   |    |    | Toolbar - '上へバンド ツール バー'    (L183, T245, R207, B274)
+   |    |    | [u'\u4e0a\u3078\u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fc', 'Toolbar3', u'\u4e0a\u3078\u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fcToolbar']
+   |    |    | child_window(title="上へバンド ツール バー", class_name="ToolbarWindow32")
+   |    |    | 
+   |    |    | Address Band Root - ''    (L207, T242, R821, B270)
+   |    |    | [u'Address Band Root', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Address Band Root']
+   |    |    | child_window(class_name="Address Band Root")
+   |    |    |    | 
+   |    |    |    | Progress - ''    (L209, T246, R819, B268)
+   |    |    |    | ['Progress', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Progress']
+   |    |    |    | child_window(class_name="msctls_progress32")
+   |    |    |    |    | 
+   |    |    |    |    | Breadcrumb Parent - ''    (L209, T246, R779, B268)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Breadcrumb Parent', u'Breadcrumb Parent']
+   |    |    |    |    | child_window(class_name="Breadcrumb Parent")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    |    |    |    |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    |    |    |    |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    |    |    |    | 
+   |    |    |    |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    |    |    |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    |    |    |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    |    |    |    | 
+   |    |    |    |    | Toolbar - 'アドレス バンド ツール バー'    (L779, T246, R819, B268)
+   |    |    |    |    | ['Toolbar5', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fcToolbar', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fc']
+   |    |    |    |    | child_window(title="アドレス バンド ツール バー", class_name="ToolbarWindow32")
+   |    |    |    |    | 
+   |    |    |    |    | ComboBoxEx - ''    (L209, T246, R779, B268)
+   |    |    |    |    | ['ComboBoxEx', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBoxEx']
+   |    |    |    |    | child_window(class_name="ComboBoxEx32")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    |    |    |    |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    |    |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    |    |    |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    | 
+   |    |    |    | Breadcrumb Parent - ''    (L209, T246, R779, B268)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Breadcrumb Parent', u'Breadcrumb Parent']
+   |    |    |    | child_window(class_name="Breadcrumb Parent")
+   |    |    |    |    | 
+   |    |    |    |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    |    |    |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    |    |    |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    |    |    | 
+   |    |    |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    |    |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    |    |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    |    |    | 
+   |    |    |    | Toolbar - 'アドレス バンド ツール バー'    (L779, T246, R819, B268)
+   |    |    |    | ['Toolbar5', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fcToolbar', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fc']
+   |    |    |    | child_window(title="アドレス バンド ツール バー", class_name="ToolbarWindow32")
+   |    |    |    | 
+   |    |    |    | ComboBoxEx - ''    (L209, T246, R779, B268)
+   |    |    |    | ['ComboBoxEx', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBoxEx']
+   |    |    |    | child_window(class_name="ComboBoxEx32")
+   |    |    |    |    | 
+   |    |    |    |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    |    |    |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    | 
+   |    |    |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    |    |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Progress - ''    (L209, T246, R819, B268)
+   |    |    | ['Progress', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Progress']
+   |    |    | child_window(class_name="msctls_progress32")
+   |    |    |    | 
+   |    |    |    | Breadcrumb Parent - ''    (L209, T246, R779, B268)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Breadcrumb Parent', u'Breadcrumb Parent']
+   |    |    |    | child_window(class_name="Breadcrumb Parent")
+   |    |    |    |    | 
+   |    |    |    |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    |    |    |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    |    |    |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    |    |    | 
+   |    |    |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    |    |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    |    |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    |    |    | 
+   |    |    |    | Toolbar - 'アドレス バンド ツール バー'    (L779, T246, R819, B268)
+   |    |    |    | ['Toolbar5', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fcToolbar', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fc']
+   |    |    |    | child_window(title="アドレス バンド ツール バー", class_name="ToolbarWindow32")
+   |    |    |    | 
+   |    |    |    | ComboBoxEx - ''    (L209, T246, R779, B268)
+   |    |    |    | ['ComboBoxEx', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBoxEx']
+   |    |    |    | child_window(class_name="ComboBoxEx32")
+   |    |    |    |    | 
+   |    |    |    |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    |    |    |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    | 
+   |    |    |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    |    |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Breadcrumb Parent - ''    (L209, T246, R779, B268)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Breadcrumb Parent', u'Breadcrumb Parent']
+   |    |    | child_window(class_name="Breadcrumb Parent")
+   |    |    |    | 
+   |    |    |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    |    |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    |    |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    |    | 
+   |    |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    |    | 
+   |    |    | Toolbar - 'アドレス バンド ツール バー'    (L779, T246, R819, B268)
+   |    |    | ['Toolbar5', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fcToolbar', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fc']
+   |    |    | child_window(title="アドレス バンド ツール バー", class_name="ToolbarWindow32")
+   |    |    | 
+   |    |    | ComboBoxEx - ''    (L209, T246, R779, B268)
+   |    |    | ['ComboBoxEx', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBoxEx']
+   |    |    | child_window(class_name="ComboBoxEx32")
+   |    |    |    | 
+   |    |    |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    |    |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    |    | child_window(class_name="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | SeparatorBand - ''    (L825, T255, R831, B256)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58SeparatorBand0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58SeparatorBand1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58SeparatorBand', u'SeparatorBand0', u'SeparatorBand1', u'SeparatorBand']
+   |    |    | child_window(class_name="SeparatorBand")
+   |    |    | 
+   |    |    | UniversalSearchBand - ''    (L831, T242, R1035, B270)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58UniversalSearchBand', u'UniversalSearchBand']
+   |    |    | child_window(class_name="UniversalSearchBand")
+   |    |    |    | 
+   |    |    |    | Search Box - ''    (L831, T245, R1035, B269)
+   |    |    |    | [u'Search Box', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Search Box']
+   |    |    |    | child_window(class_name="Search Box")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L836, T245, R1030, B269)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit3', u'Edit3']
+   |    |    |    |    | child_window(class_name="SearchEditBoxWrapperClass")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    |    |    |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    |    | 
+   |    |    |    |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    |    |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L836, T245, R1030, B269)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit3', u'Edit3']
+   |    |    |    | child_window(class_name="SearchEditBoxWrapperClass")
+   |    |    |    |    | 
+   |    |    |    |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    |    |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    | 
+   |    |    |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    |    |    | child_window(class_name="DirectUIHWND")
+   |    |    | 
+   |    |    | Search Box - ''    (L831, T245, R1035, B269)
+   |    |    | [u'Search Box', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Search Box']
+   |    |    | child_window(class_name="Search Box")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L836, T245, R1030, B269)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit3', u'Edit3']
+   |    |    |    | child_window(class_name="SearchEditBoxWrapperClass")
+   |    |    |    |    | 
+   |    |    |    |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    |    |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    | 
+   |    |    |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    |    |    | child_window(class_name="DirectUIHWND")
+   |    |    | 
+   |    |    | Edit - ''    (L836, T245, R1030, B269)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit3', u'Edit3']
+   |    |    | child_window(class_name="SearchEditBoxWrapperClass")
+   |    |    |    | 
+   |    |    |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    |    |    | child_window(class_name="DirectUIHWND")
+   |    |    | 
+   |    |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    |    | child_window(class_name="DirectUIHWND")
+   |    |    | 
+   |    |    | SeparatorBand - ''    (L1039, T255, R1046, B256)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58SeparatorBand2', u'SeparatorBand2']
+   |    |    | child_window(class_name="SeparatorBand")
+   |    | 
+   |    | TravelBand - ''    (L102, T240, R183, B272)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58TravelBand', u'TravelBand']
+   |    | child_window(class_name="TravelBand")
+   |    |    | 
+   |    |    | Toolbar - 'ナビゲーション ボタン'    (L106, T242, R183, B272)
+   |    |    | [u'\u30ca\u30d3\u30b2\u30fc\u30b7\u30e7\u30f3 \u30dc\u30bf\u30f3Toolbar', 'Toolbar2', u'\u30ca\u30d3\u30b2\u30fc\u30b7\u30e7\u30f3 \u30dc\u30bf\u30f3']
+   |    |    | child_window(title="ナビゲーション ボタン", class_name="ToolbarWindow32")
+   |    | 
+   |    | Toolbar - 'ナビゲーション ボタン'    (L106, T242, R183, B272)
+   |    | [u'\u30ca\u30d3\u30b2\u30fc\u30b7\u30e7\u30f3 \u30dc\u30bf\u30f3Toolbar', 'Toolbar2', u'\u30ca\u30d3\u30b2\u30fc\u30b7\u30e7\u30f3 \u30dc\u30bf\u30f3']
+   |    | child_window(title="ナビゲーション ボタン", class_name="ToolbarWindow32")
+   |    | 
+   |    | UpBand - ''    (L183, T241, R207, B270)
+   |    | [u'UpBand', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58UpBand']
+   |    | child_window(class_name="UpBand")
+   |    |    | 
+   |    |    | Toolbar - '上へバンド ツール バー'    (L183, T245, R207, B274)
+   |    |    | [u'\u4e0a\u3078\u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fc', 'Toolbar3', u'\u4e0a\u3078\u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fcToolbar']
+   |    |    | child_window(title="上へバンド ツール バー", class_name="ToolbarWindow32")
+   |    | 
+   |    | Toolbar - '上へバンド ツール バー'    (L183, T245, R207, B274)
+   |    | [u'\u4e0a\u3078\u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fc', 'Toolbar3', u'\u4e0a\u3078\u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fcToolbar']
+   |    | child_window(title="上へバンド ツール バー", class_name="ToolbarWindow32")
+   |    | 
+   |    | Address Band Root - ''    (L207, T242, R821, B270)
+   |    | [u'Address Band Root', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Address Band Root']
+   |    | child_window(class_name="Address Band Root")
+   |    |    | 
+   |    |    | Progress - ''    (L209, T246, R819, B268)
+   |    |    | ['Progress', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Progress']
+   |    |    | child_window(class_name="msctls_progress32")
+   |    |    |    | 
+   |    |    |    | Breadcrumb Parent - ''    (L209, T246, R779, B268)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Breadcrumb Parent', u'Breadcrumb Parent']
+   |    |    |    | child_window(class_name="Breadcrumb Parent")
+   |    |    |    |    | 
+   |    |    |    |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    |    |    |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    |    |    |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    |    |    | 
+   |    |    |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    |    |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    |    |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    |    |    | 
+   |    |    |    | Toolbar - 'アドレス バンド ツール バー'    (L779, T246, R819, B268)
+   |    |    |    | ['Toolbar5', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fcToolbar', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fc']
+   |    |    |    | child_window(title="アドレス バンド ツール バー", class_name="ToolbarWindow32")
+   |    |    |    | 
+   |    |    |    | ComboBoxEx - ''    (L209, T246, R779, B268)
+   |    |    |    | ['ComboBoxEx', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBoxEx']
+   |    |    |    | child_window(class_name="ComboBoxEx32")
+   |    |    |    |    | 
+   |    |    |    |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    |    |    |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    | 
+   |    |    |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    |    |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Breadcrumb Parent - ''    (L209, T246, R779, B268)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Breadcrumb Parent', u'Breadcrumb Parent']
+   |    |    | child_window(class_name="Breadcrumb Parent")
+   |    |    |    | 
+   |    |    |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    |    |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    |    |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    |    | 
+   |    |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    |    | 
+   |    |    | Toolbar - 'アドレス バンド ツール バー'    (L779, T246, R819, B268)
+   |    |    | ['Toolbar5', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fcToolbar', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fc']
+   |    |    | child_window(title="アドレス バンド ツール バー", class_name="ToolbarWindow32")
+   |    |    | 
+   |    |    | ComboBoxEx - ''    (L209, T246, R779, B268)
+   |    |    | ['ComboBoxEx', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBoxEx']
+   |    |    | child_window(class_name="ComboBoxEx32")
+   |    |    |    | 
+   |    |    |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    |    |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    |    | child_window(class_name="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    | child_window(class_name="Edit")
+   |    | 
+   |    | Progress - ''    (L209, T246, R819, B268)
+   |    | ['Progress', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Progress']
+   |    | child_window(class_name="msctls_progress32")
+   |    |    | 
+   |    |    | Breadcrumb Parent - ''    (L209, T246, R779, B268)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Breadcrumb Parent', u'Breadcrumb Parent']
+   |    |    | child_window(class_name="Breadcrumb Parent")
+   |    |    |    | 
+   |    |    |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    |    |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    |    |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    |    | 
+   |    |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    |    | 
+   |    |    | Toolbar - 'アドレス バンド ツール バー'    (L779, T246, R819, B268)
+   |    |    | ['Toolbar5', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fcToolbar', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fc']
+   |    |    | child_window(title="アドレス バンド ツール バー", class_name="ToolbarWindow32")
+   |    |    | 
+   |    |    | ComboBoxEx - ''    (L209, T246, R779, B268)
+   |    |    | ['ComboBoxEx', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBoxEx']
+   |    |    | child_window(class_name="ComboBoxEx32")
+   |    |    |    | 
+   |    |    |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    |    |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    |    | child_window(class_name="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    | child_window(class_name="Edit")
+   |    | 
+   |    | Breadcrumb Parent - ''    (L209, T246, R779, B268)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Breadcrumb Parent', u'Breadcrumb Parent']
+   |    | child_window(class_name="Breadcrumb Parent")
+   |    |    | 
+   |    |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    | 
+   |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    | 
+   |    | Toolbar - 'アドレス バンド ツール バー'    (L779, T246, R819, B268)
+   |    | ['Toolbar5', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fcToolbar', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fc']
+   |    | child_window(title="アドレス バンド ツール バー", class_name="ToolbarWindow32")
+   |    | 
+   |    | ComboBoxEx - ''    (L209, T246, R779, B268)
+   |    | ['ComboBoxEx', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBoxEx']
+   |    | child_window(class_name="ComboBoxEx32")
+   |    |    | 
+   |    |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    |    | child_window(class_name="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    | child_window(class_name="Edit")
+   |    | 
+   |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    | child_window(class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    | child_window(class_name="Edit")
+   |    | 
+   |    | Edit - ''    (L233, T250, R759, B265)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | SeparatorBand - ''    (L825, T255, R831, B256)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58SeparatorBand0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58SeparatorBand1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58SeparatorBand', u'SeparatorBand0', u'SeparatorBand1', u'SeparatorBand']
+   |    | child_window(class_name="SeparatorBand")
+   |    | 
+   |    | UniversalSearchBand - ''    (L831, T242, R1035, B270)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58UniversalSearchBand', u'UniversalSearchBand']
+   |    | child_window(class_name="UniversalSearchBand")
+   |    |    | 
+   |    |    | Search Box - ''    (L831, T245, R1035, B269)
+   |    |    | [u'Search Box', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Search Box']
+   |    |    | child_window(class_name="Search Box")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L836, T245, R1030, B269)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit3', u'Edit3']
+   |    |    |    | child_window(class_name="SearchEditBoxWrapperClass")
+   |    |    |    |    | 
+   |    |    |    |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    |    |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    | 
+   |    |    |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    |    |    | child_window(class_name="DirectUIHWND")
+   |    |    | 
+   |    |    | Edit - ''    (L836, T245, R1030, B269)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit3', u'Edit3']
+   |    |    | child_window(class_name="SearchEditBoxWrapperClass")
+   |    |    |    | 
+   |    |    |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    |    |    | child_window(class_name="DirectUIHWND")
+   |    |    | 
+   |    |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    |    | child_window(class_name="DirectUIHWND")
+   |    | 
+   |    | Search Box - ''    (L831, T245, R1035, B269)
+   |    | [u'Search Box', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Search Box']
+   |    | child_window(class_name="Search Box")
+   |    |    | 
+   |    |    | Edit - ''    (L836, T245, R1030, B269)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit3', u'Edit3']
+   |    |    | child_window(class_name="SearchEditBoxWrapperClass")
+   |    |    |    | 
+   |    |    |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    |    |    | child_window(class_name="DirectUIHWND")
+   |    |    | 
+   |    |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    |    | child_window(class_name="DirectUIHWND")
+   |    | 
+   |    | Edit - ''    (L836, T245, R1030, B269)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit3', u'Edit3']
+   |    | child_window(class_name="SearchEditBoxWrapperClass")
+   |    |    | 
+   |    |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    |    | child_window(class_name="DirectUIHWND")
+   |    | 
+   |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    | child_window(class_name="DirectUIHWND")
+   |    | 
+   |    | SeparatorBand - ''    (L1039, T255, R1046, B256)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58SeparatorBand2', u'SeparatorBand2']
+   |    | child_window(class_name="SeparatorBand")
+   | 
+   | ReBar - ''    (L102, T240, R1046, B275)
+   | [u'ReBar\u30a2\u30c9\u30ec\u30b9', 'ReBar', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ReBar']
+   | child_window(class_name="ReBarWindow32")
+   |    | 
+   |    | TravelBand - ''    (L102, T240, R183, B272)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58TravelBand', u'TravelBand']
+   |    | child_window(class_name="TravelBand")
+   |    |    | 
+   |    |    | Toolbar - 'ナビゲーション ボタン'    (L106, T242, R183, B272)
+   |    |    | [u'\u30ca\u30d3\u30b2\u30fc\u30b7\u30e7\u30f3 \u30dc\u30bf\u30f3Toolbar', 'Toolbar2', u'\u30ca\u30d3\u30b2\u30fc\u30b7\u30e7\u30f3 \u30dc\u30bf\u30f3']
+   |    |    | child_window(title="ナビゲーション ボタン", class_name="ToolbarWindow32")
+   |    | 
+   |    | Toolbar - 'ナビゲーション ボタン'    (L106, T242, R183, B272)
+   |    | [u'\u30ca\u30d3\u30b2\u30fc\u30b7\u30e7\u30f3 \u30dc\u30bf\u30f3Toolbar', 'Toolbar2', u'\u30ca\u30d3\u30b2\u30fc\u30b7\u30e7\u30f3 \u30dc\u30bf\u30f3']
+   |    | child_window(title="ナビゲーション ボタン", class_name="ToolbarWindow32")
+   |    | 
+   |    | UpBand - ''    (L183, T241, R207, B270)
+   |    | [u'UpBand', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58UpBand']
+   |    | child_window(class_name="UpBand")
+   |    |    | 
+   |    |    | Toolbar - '上へバンド ツール バー'    (L183, T245, R207, B274)
+   |    |    | [u'\u4e0a\u3078\u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fc', 'Toolbar3', u'\u4e0a\u3078\u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fcToolbar']
+   |    |    | child_window(title="上へバンド ツール バー", class_name="ToolbarWindow32")
+   |    | 
+   |    | Toolbar - '上へバンド ツール バー'    (L183, T245, R207, B274)
+   |    | [u'\u4e0a\u3078\u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fc', 'Toolbar3', u'\u4e0a\u3078\u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fcToolbar']
+   |    | child_window(title="上へバンド ツール バー", class_name="ToolbarWindow32")
+   |    | 
+   |    | Address Band Root - ''    (L207, T242, R821, B270)
+   |    | [u'Address Band Root', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Address Band Root']
+   |    | child_window(class_name="Address Band Root")
+   |    |    | 
+   |    |    | Progress - ''    (L209, T246, R819, B268)
+   |    |    | ['Progress', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Progress']
+   |    |    | child_window(class_name="msctls_progress32")
+   |    |    |    | 
+   |    |    |    | Breadcrumb Parent - ''    (L209, T246, R779, B268)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Breadcrumb Parent', u'Breadcrumb Parent']
+   |    |    |    | child_window(class_name="Breadcrumb Parent")
+   |    |    |    |    | 
+   |    |    |    |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    |    |    |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    |    |    |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    |    |    | 
+   |    |    |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    |    |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    |    |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    |    |    | 
+   |    |    |    | Toolbar - 'アドレス バンド ツール バー'    (L779, T246, R819, B268)
+   |    |    |    | ['Toolbar5', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fcToolbar', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fc']
+   |    |    |    | child_window(title="アドレス バンド ツール バー", class_name="ToolbarWindow32")
+   |    |    |    | 
+   |    |    |    | ComboBoxEx - ''    (L209, T246, R779, B268)
+   |    |    |    | ['ComboBoxEx', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBoxEx']
+   |    |    |    | child_window(class_name="ComboBoxEx32")
+   |    |    |    |    | 
+   |    |    |    |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    |    |    |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    | 
+   |    |    |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    |    |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Breadcrumb Parent - ''    (L209, T246, R779, B268)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Breadcrumb Parent', u'Breadcrumb Parent']
+   |    |    | child_window(class_name="Breadcrumb Parent")
+   |    |    |    | 
+   |    |    |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    |    |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    |    |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    |    | 
+   |    |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    |    | 
+   |    |    | Toolbar - 'アドレス バンド ツール バー'    (L779, T246, R819, B268)
+   |    |    | ['Toolbar5', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fcToolbar', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fc']
+   |    |    | child_window(title="アドレス バンド ツール バー", class_name="ToolbarWindow32")
+   |    |    | 
+   |    |    | ComboBoxEx - ''    (L209, T246, R779, B268)
+   |    |    | ['ComboBoxEx', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBoxEx']
+   |    |    | child_window(class_name="ComboBoxEx32")
+   |    |    |    | 
+   |    |    |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    |    |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    |    | child_window(class_name="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    | child_window(class_name="Edit")
+   |    | 
+   |    | Progress - ''    (L209, T246, R819, B268)
+   |    | ['Progress', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Progress']
+   |    | child_window(class_name="msctls_progress32")
+   |    |    | 
+   |    |    | Breadcrumb Parent - ''    (L209, T246, R779, B268)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Breadcrumb Parent', u'Breadcrumb Parent']
+   |    |    | child_window(class_name="Breadcrumb Parent")
+   |    |    |    | 
+   |    |    |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    |    |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    |    |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    |    | 
+   |    |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    |    | 
+   |    |    | Toolbar - 'アドレス バンド ツール バー'    (L779, T246, R819, B268)
+   |    |    | ['Toolbar5', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fcToolbar', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fc']
+   |    |    | child_window(title="アドレス バンド ツール バー", class_name="ToolbarWindow32")
+   |    |    | 
+   |    |    | ComboBoxEx - ''    (L209, T246, R779, B268)
+   |    |    | ['ComboBoxEx', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBoxEx']
+   |    |    | child_window(class_name="ComboBoxEx32")
+   |    |    |    | 
+   |    |    |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    |    |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    |    | child_window(class_name="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    | child_window(class_name="Edit")
+   |    | 
+   |    | Breadcrumb Parent - ''    (L209, T246, R779, B268)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Breadcrumb Parent', u'Breadcrumb Parent']
+   |    | child_window(class_name="Breadcrumb Parent")
+   |    |    | 
+   |    |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    | 
+   |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    | 
+   |    | Toolbar - 'アドレス バンド ツール バー'    (L779, T246, R819, B268)
+   |    | ['Toolbar5', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fcToolbar', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fc']
+   |    | child_window(title="アドレス バンド ツール バー", class_name="ToolbarWindow32")
+   |    | 
+   |    | ComboBoxEx - ''    (L209, T246, R779, B268)
+   |    | ['ComboBoxEx', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBoxEx']
+   |    | child_window(class_name="ComboBoxEx32")
+   |    |    | 
+   |    |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    |    | child_window(class_name="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    | child_window(class_name="Edit")
+   |    | 
+   |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    | child_window(class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    | child_window(class_name="Edit")
+   |    | 
+   |    | Edit - ''    (L233, T250, R759, B265)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | SeparatorBand - ''    (L825, T255, R831, B256)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58SeparatorBand0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58SeparatorBand1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58SeparatorBand', u'SeparatorBand0', u'SeparatorBand1', u'SeparatorBand']
+   |    | child_window(class_name="SeparatorBand")
+   |    | 
+   |    | UniversalSearchBand - ''    (L831, T242, R1035, B270)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58UniversalSearchBand', u'UniversalSearchBand']
+   |    | child_window(class_name="UniversalSearchBand")
+   |    |    | 
+   |    |    | Search Box - ''    (L831, T245, R1035, B269)
+   |    |    | [u'Search Box', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Search Box']
+   |    |    | child_window(class_name="Search Box")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L836, T245, R1030, B269)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit3', u'Edit3']
+   |    |    |    | child_window(class_name="SearchEditBoxWrapperClass")
+   |    |    |    |    | 
+   |    |    |    |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    |    |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    | 
+   |    |    |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    |    |    | child_window(class_name="DirectUIHWND")
+   |    |    | 
+   |    |    | Edit - ''    (L836, T245, R1030, B269)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit3', u'Edit3']
+   |    |    | child_window(class_name="SearchEditBoxWrapperClass")
+   |    |    |    | 
+   |    |    |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    |    |    | child_window(class_name="DirectUIHWND")
+   |    |    | 
+   |    |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    |    | child_window(class_name="DirectUIHWND")
+   |    | 
+   |    | Search Box - ''    (L831, T245, R1035, B269)
+   |    | [u'Search Box', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Search Box']
+   |    | child_window(class_name="Search Box")
+   |    |    | 
+   |    |    | Edit - ''    (L836, T245, R1030, B269)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit3', u'Edit3']
+   |    |    | child_window(class_name="SearchEditBoxWrapperClass")
+   |    |    |    | 
+   |    |    |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    |    |    | child_window(class_name="DirectUIHWND")
+   |    |    | 
+   |    |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    |    | child_window(class_name="DirectUIHWND")
+   |    | 
+   |    | Edit - ''    (L836, T245, R1030, B269)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit3', u'Edit3']
+   |    | child_window(class_name="SearchEditBoxWrapperClass")
+   |    |    | 
+   |    |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    |    | child_window(class_name="DirectUIHWND")
+   |    | 
+   |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    | child_window(class_name="DirectUIHWND")
+   |    | 
+   |    | SeparatorBand - ''    (L1039, T255, R1046, B256)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58SeparatorBand2', u'SeparatorBand2']
+   |    | child_window(class_name="SeparatorBand")
+   | 
+   | TravelBand - ''    (L102, T240, R183, B272)
+   | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58TravelBand', u'TravelBand']
+   | child_window(class_name="TravelBand")
+   |    | 
+   |    | Toolbar - 'ナビゲーション ボタン'    (L106, T242, R183, B272)
+   |    | [u'\u30ca\u30d3\u30b2\u30fc\u30b7\u30e7\u30f3 \u30dc\u30bf\u30f3Toolbar', 'Toolbar2', u'\u30ca\u30d3\u30b2\u30fc\u30b7\u30e7\u30f3 \u30dc\u30bf\u30f3']
+   |    | child_window(title="ナビゲーション ボタン", class_name="ToolbarWindow32")
+   | 
+   | Toolbar - 'ナビゲーション ボタン'    (L106, T242, R183, B272)
+   | [u'\u30ca\u30d3\u30b2\u30fc\u30b7\u30e7\u30f3 \u30dc\u30bf\u30f3Toolbar', 'Toolbar2', u'\u30ca\u30d3\u30b2\u30fc\u30b7\u30e7\u30f3 \u30dc\u30bf\u30f3']
+   | child_window(title="ナビゲーション ボタン", class_name="ToolbarWindow32")
+   | 
+   | UpBand - ''    (L183, T241, R207, B270)
+   | [u'UpBand', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58UpBand']
+   | child_window(class_name="UpBand")
+   |    | 
+   |    | Toolbar - '上へバンド ツール バー'    (L183, T245, R207, B274)
+   |    | [u'\u4e0a\u3078\u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fc', 'Toolbar3', u'\u4e0a\u3078\u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fcToolbar']
+   |    | child_window(title="上へバンド ツール バー", class_name="ToolbarWindow32")
+   | 
+   | Toolbar - '上へバンド ツール バー'    (L183, T245, R207, B274)
+   | [u'\u4e0a\u3078\u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fc', 'Toolbar3', u'\u4e0a\u3078\u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fcToolbar']
+   | child_window(title="上へバンド ツール バー", class_name="ToolbarWindow32")
+   | 
+   | Address Band Root - ''    (L207, T242, R821, B270)
+   | [u'Address Band Root', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Address Band Root']
+   | child_window(class_name="Address Band Root")
+   |    | 
+   |    | Progress - ''    (L209, T246, R819, B268)
+   |    | ['Progress', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Progress']
+   |    | child_window(class_name="msctls_progress32")
+   |    |    | 
+   |    |    | Breadcrumb Parent - ''    (L209, T246, R779, B268)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Breadcrumb Parent', u'Breadcrumb Parent']
+   |    |    | child_window(class_name="Breadcrumb Parent")
+   |    |    |    | 
+   |    |    |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    |    |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    |    |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    |    | 
+   |    |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    |    | 
+   |    |    | Toolbar - 'アドレス バンド ツール バー'    (L779, T246, R819, B268)
+   |    |    | ['Toolbar5', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fcToolbar', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fc']
+   |    |    | child_window(title="アドレス バンド ツール バー", class_name="ToolbarWindow32")
+   |    |    | 
+   |    |    | ComboBoxEx - ''    (L209, T246, R779, B268)
+   |    |    | ['ComboBoxEx', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBoxEx']
+   |    |    | child_window(class_name="ComboBoxEx32")
+   |    |    |    | 
+   |    |    |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    |    |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    |    | child_window(class_name="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    | child_window(class_name="Edit")
+   |    | 
+   |    | Breadcrumb Parent - ''    (L209, T246, R779, B268)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Breadcrumb Parent', u'Breadcrumb Parent']
+   |    | child_window(class_name="Breadcrumb Parent")
+   |    |    | 
+   |    |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    | 
+   |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    | 
+   |    | Toolbar - 'アドレス バンド ツール バー'    (L779, T246, R819, B268)
+   |    | ['Toolbar5', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fcToolbar', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fc']
+   |    | child_window(title="アドレス バンド ツール バー", class_name="ToolbarWindow32")
+   |    | 
+   |    | ComboBoxEx - ''    (L209, T246, R779, B268)
+   |    | ['ComboBoxEx', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBoxEx']
+   |    | child_window(class_name="ComboBoxEx32")
+   |    |    | 
+   |    |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    |    | child_window(class_name="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    | child_window(class_name="Edit")
+   |    | 
+   |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    | child_window(class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    | child_window(class_name="Edit")
+   |    | 
+   |    | Edit - ''    (L233, T250, R759, B265)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    | child_window(class_name="Edit")
+   | 
+   | Progress - ''    (L209, T246, R819, B268)
+   | ['Progress', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Progress']
+   | child_window(class_name="msctls_progress32")
+   |    | 
+   |    | Breadcrumb Parent - ''    (L209, T246, R779, B268)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Breadcrumb Parent', u'Breadcrumb Parent']
+   |    | child_window(class_name="Breadcrumb Parent")
+   |    |    | 
+   |    |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    | 
+   |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   |    | 
+   |    | Toolbar - 'アドレス バンド ツール バー'    (L779, T246, R819, B268)
+   |    | ['Toolbar5', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fcToolbar', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fc']
+   |    | child_window(title="アドレス バンド ツール バー", class_name="ToolbarWindow32")
+   |    | 
+   |    | ComboBoxEx - ''    (L209, T246, R779, B268)
+   |    | ['ComboBoxEx', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBoxEx']
+   |    | child_window(class_name="ComboBoxEx32")
+   |    |    | 
+   |    |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    |    | child_window(class_name="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    | child_window(class_name="Edit")
+   |    | 
+   |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    | child_window(class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    | child_window(class_name="Edit")
+   |    | 
+   |    | Edit - ''    (L233, T250, R759, B265)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    | child_window(class_name="Edit")
+   | 
+   | Breadcrumb Parent - ''    (L209, T246, R779, B268)
+   | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Breadcrumb Parent', u'Breadcrumb Parent']
+   | child_window(class_name="Breadcrumb Parent")
+   |    | 
+   |    | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   |    | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   |    | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   | 
+   | Toolbar - 'アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー'    (L209, T246, R779, B268)
+   | ['Toolbar4', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fc', u'\u30a2\u30c9\u30ec\u30b9: C:\\Users\\Toshiyuki\\Desktop\\\u65b0\u3057\u3044\u30d5\u30a9\u30eb\u30c0\u30fcToolbar']
+   | child_window(title="アドレス: C:\Users\Toshiyuki\Desktop\新しいフォルダー", class_name="ToolbarWindow32")
+   | 
+   | Toolbar - 'アドレス バンド ツール バー'    (L779, T246, R819, B268)
+   | ['Toolbar5', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fcToolbar', u'\u30a2\u30c9\u30ec\u30b9 \u30d0\u30f3\u30c9 \u30c4\u30fc\u30eb \u30d0\u30fc']
+   | child_window(title="アドレス バンド ツール バー", class_name="ToolbarWindow32")
+   | 
+   | ComboBoxEx - ''    (L209, T246, R779, B268)
+   | ['ComboBoxEx', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBoxEx']
+   | child_window(class_name="ComboBoxEx32")
+   |    | 
+   |    | ComboBox - ''    (L209, T246, R779, B268)
+   |    | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   |    | child_window(class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - ''    (L233, T250, R759, B265)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    |    | child_window(class_name="Edit")
+   |    | 
+   |    | Edit - ''    (L233, T250, R759, B265)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    | child_window(class_name="Edit")
+   | 
+   | ComboBox - ''    (L209, T246, R779, B268)
+   | [u'ComboBox4', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58ComboBox3']
+   | child_window(class_name="ComboBox")
+   |    | 
+   |    | Edit - ''    (L233, T250, R759, B265)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   |    | child_window(class_name="Edit")
+   | 
+   | Edit - ''    (L233, T250, R759, B265)
+   | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit2', u'Edit2']
+   | child_window(class_name="Edit")
+   | 
+   | SeparatorBand - ''    (L825, T255, R831, B256)
+   | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58SeparatorBand0', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58SeparatorBand1', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58SeparatorBand', u'SeparatorBand0', u'SeparatorBand1', u'SeparatorBand']
+   | child_window(class_name="SeparatorBand")
+   | 
+   | UniversalSearchBand - ''    (L831, T242, R1035, B270)
+   | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58UniversalSearchBand', u'UniversalSearchBand']
+   | child_window(class_name="UniversalSearchBand")
+   |    | 
+   |    | Search Box - ''    (L831, T245, R1035, B269)
+   |    | [u'Search Box', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Search Box']
+   |    | child_window(class_name="Search Box")
+   |    |    | 
+   |    |    | Edit - ''    (L836, T245, R1030, B269)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit3', u'Edit3']
+   |    |    | child_window(class_name="SearchEditBoxWrapperClass")
+   |    |    |    | 
+   |    |    |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    |    |    | child_window(class_name="DirectUIHWND")
+   |    |    | 
+   |    |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    |    | child_window(class_name="DirectUIHWND")
+   |    | 
+   |    | Edit - ''    (L836, T245, R1030, B269)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit3', u'Edit3']
+   |    | child_window(class_name="SearchEditBoxWrapperClass")
+   |    |    | 
+   |    |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    |    | child_window(class_name="DirectUIHWND")
+   |    | 
+   |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    | child_window(class_name="DirectUIHWND")
+   | 
+   | Search Box - ''    (L831, T245, R1035, B269)
+   | [u'Search Box', u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Search Box']
+   | child_window(class_name="Search Box")
+   |    | 
+   |    | Edit - ''    (L836, T245, R1030, B269)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit3', u'Edit3']
+   |    | child_window(class_name="SearchEditBoxWrapperClass")
+   |    |    | 
+   |    |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    |    | child_window(class_name="DirectUIHWND")
+   |    | 
+   |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    | child_window(class_name="DirectUIHWND")
+   | 
+   | Edit - ''    (L836, T245, R1030, B269)
+   | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58Edit3', u'Edit3']
+   | child_window(class_name="SearchEditBoxWrapperClass")
+   |    | 
+   |    | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   |    | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   |    | child_window(class_name="DirectUIHWND")
+   | 
+   | DirectUIHWND - ''    (L836, T245, R1030, B269)
+   | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58DirectUIHWND3', u'DirectUIHWND3']
+   | child_window(class_name="DirectUIHWND")
+   | 
+   | SeparatorBand - ''    (L1039, T255, R1046, B256)
+   | [u'\u540d\u524d\u3092\u4ed8\u3051\u3066\u4fdd\u5b58SeparatorBand2', u'SeparatorBand2']
+   | child_window(class_name="SeparatorBand")
+Update
