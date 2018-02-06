@@ -1,6 +1,9 @@
-print('Any Key Input -> :'),
-keyData = raw_input()
+from getpass import getpass 
+print('Name:',end=' ')
+name = input()
+print('Input Name: ',end=' ')
+print(name)
 
-print('Key Input : '),
-print(keyData)
-
+passwd = getpass()
+print('Input Password : ',end=' ')
+print(passwd)

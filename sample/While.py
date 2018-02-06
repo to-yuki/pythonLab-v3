@@ -4,4 +4,3 @@ while a < 10:
 	a += 1
 else:
 	print('loop-end')
-

@@ -4,8 +4,8 @@ for val in list:
 	try:
 		sum += val
 	except:
-		print('Error Data:'),
+		print('Error Data:',end=' ')
 		print(val)
 
-print('sum :'),
+print('sum :',end=' ')
 print(sum)
