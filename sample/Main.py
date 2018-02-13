@@ -3,6 +3,6 @@ def main():
 	pass
 
 # -- Main function Define--#
-if __name__ == "__main__":
+if __name__ == '__main__':
 	main()
 
