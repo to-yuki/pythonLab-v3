@@ -1,1 +1,1 @@
-{"list": [{"kind": "Auther", "birthday": 1956, "name": "Guido van Rossum"}, {"kind": "Language", "birthday": 1991, "name": "Python"}, {"kind": "Language", "birthday": 1980, "name": "ABC"}]}
+{"list": [{"kind": "Auther", "name": "Guido van Rossum", "birthday": 1956}, {"kind": "Language", "name": "Python", "birthday": 1991}, {"kind": "Language", "name": "ABC", "birthday": 1980}]}

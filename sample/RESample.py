@@ -1,10 +1,9 @@
-# -*- coding: UTF-8 -*-
 import re
 
 # 検査対象文字列
-string = u"https://www.python.org/community/irc/"
+string = 'https://www.python.org/community/irc/'
 # 正規表現文字列
-reString = r"https://(.*)/(.*)/(.*)/"
+reString = r'https://(.*)/(.*)/(.*)/'
 
 # 正規表現文字列のコンパイル
 pattern = re.compile(reString)

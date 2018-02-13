@@ -1,12 +1,11 @@
 # -*- encoding: UTF-8 -*-
-# coding: utf-8
+# coding: UTF-8
 from __future__ import with_statement
 import sys,codecs
 
-with codecs.open('cp932file.txt','w','cp932') as f:
-    f.write(u'こんにちは')
+with codecs.open('cp932file.txt','w','Shift-JIS') as f:
+    f.write('こんにちは')
 
-print 'こんにちは '
-print u'こんにちは '
+print('こんにちは')
+print(u'こんにちは') # Python2.x 系での出力方法
 
-print u'こんにちは '.encode('cp932')

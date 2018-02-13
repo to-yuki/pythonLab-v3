@@ -1,21 +1,21 @@
 # Non Args
 def func1():
-	print('	function1')
+	print('	function1') #Tab Space
 
 # 1 Args
 def func2(n):
-	print('	function2'),
+	print('	function2') #Tab Space
 	print(n)
 
 # Non Args return
 def func3():
-	print('	function3')
+	print('	function3') #Tab Space
 	n = 10
 	return n
 
 # 1 Args return
 def func4(n):
-	print('	function4')
+	print('	function4') #Tab Space
 	return n
 
 # Call function

@@ -30,6 +30,6 @@ def main():
 	#print(cust1.__name)    # __ Private Access
 
 # -- Main function Define--#
-if __name__ == "__main__":
+if __name__ == '__main__':
 	main()
 

@@ -1,7 +1,7 @@
 import sys
 
-print('Any Key Input -> : '),
+print('Any Key Input -> : ',end=' ',flush=True)
 
 keyData = sys.stdin.readline()
-print('Input Data : '),
+print('Input Data : ',end=' ')
 print(keyData)

@@ -1,4 +1,3 @@
-# -*- coding: UTF-8 -*-
 import threading
 from time import sleep
 
@@ -12,10 +11,10 @@ class MyThread(threading.Thread):
 
     # スレッド化する関数
     def run(self):
-        # __sec秒間隔で "T1" を表示
+        # __sec秒間隔で 'T1' を表示
         for i in range(5):
             sleep(self.__sec)
-            print(self.__msg + " "),
+            print(self.__msg + ' '),
 
     # プロパティ設定関数
     def setMsgSec(self,msg,sec):
@@ -25,19 +24,19 @@ class MyThread(threading.Thread):
 def main():
     # T1 スレッドの作成と開始
     myThread = MyThread()
-    myThread.setMsgSec("T1",1)
+    myThread.setMsgSec('T1',1)
     myThread.start()
 
     # T1 スレッドの作成と開始
     myThread2 = MyThread()
-    myThread2.setMsgSec("T2",2)
+    myThread2.setMsgSec('T2',2)
     myThread2.start()
     
     # 各スレッドの待ち合わせ
     myThread.join()
-    print(u"[T1 スレッド終了]")
+    print('[T1 スレッド終了]')
     myThread2.join()
-    print(u"[T2 スレッド終了]")
+    print('[T2 スレッド終了]')
 
 # メインスレッド関数を呼び出し
 if __name__=='__main__':

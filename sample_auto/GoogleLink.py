@@ -1,37 +1,35 @@
-# -*- coding: UTF-8 -*-
-import urllib2
+import urllib.request
 from bs4 import BeautifulSoup
 
 # 解析するWebサイトのURL
-url = "http://google.co.jp/"
+url = 'http://google.co.jp/'
 
 # Webサイトへアクセスし、レスポンスが戻ります(<html>...</html>)
-html = urllib2.urlopen(url)
+html = urllib.request.urlopen(url)
 
 # htmlドキュメントを解析
-soup = BeautifulSoup(html, "html.parser")
+soup = BeautifulSoup(html, 'html.parser',from_encoding='UTF-8')
 
 # タイトル Tag を取得する
 title_tag = soup.title
 
 # タイトル Tag を出力
-print title_tag
+print(title_tag)
 
 # Taitl 要素の文字列を取得する
 title = title_tag.string
 
 # タイトルを文字列を出力
-print("title: " + title)
+print('タイトル文字列: ' + title)
+print()
 
 # <a> を全て取得して、リンク情報を表示する
-list = soup.find_all("a")
+print('リンク : URL ')
+list = soup.find_all('a')
 for a in list:
-    try:
-        print(a.string.encode('cp932')),
-    except:
-        print('???'), # Tagの要素文字列なし
-    print("\t: "),
-    print(a.get("href").encode('cp932'))
+    print(a.string,end=' ')
+    print('\t: ',end=' ')
+    print(a.get('href'))
 
 # 受信データの全てを表示する
-# print soup.encode('cp932')
+#print(soup)

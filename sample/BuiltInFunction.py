@@ -1,4 +1,4 @@
-from __future__ import print_function
+# from __future__ import print_function #Python2.x
 
 print('Hello Python',end=' ') # end='' endcode setting.
 print('World!')

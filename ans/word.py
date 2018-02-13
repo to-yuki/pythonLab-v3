@@ -12,11 +12,11 @@ def main():
 			wordCount += len(line.split())
 			#print line.split()
 
-	print('LineCount:'),
+	print('LineCount:',end=' ')
 	print(lineCount)
-	print('WordCount:'),
+	print('WordCount:',end=' ')
 	print(wordCount)
 
 # -- Main function Define--#
-if __name__ == "__main__":
+if __name__ == '__main__':
 	main()

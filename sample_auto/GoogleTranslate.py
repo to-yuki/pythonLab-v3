@@ -14,8 +14,8 @@ response = requests.get(url, params={'q': origin})
 pattern = r"TRANSLATED_TEXT='(.*?)'"
 transValue = re.search(pattern,response.text).group(1)
 
-print(u"\n[translate.google.com] で翻訳") 
-print(u"英語:"), 
+print('[translate.google.com] で翻訳') 
+print('英語:',end=' ') 
 print(origin)
-print(u"日本語:"), 
+print('日本語:',end=' ') 
 print(transValue)

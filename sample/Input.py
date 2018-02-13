@@ -1,4 +1,5 @@
-from getpass import getpass 
+from getpass import getpass
+
 print('Name:',end=' ')
 name = input()
 print('Input Name: ',end=' ')
