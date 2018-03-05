@@ -7,7 +7,6 @@ except:
 finally:
 	wfile.close()
 
-
 try:
 	rfile = open('test.txt','r')
 	line = rfile.readline()
