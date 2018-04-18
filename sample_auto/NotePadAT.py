@@ -34,13 +34,13 @@ saveButtion.Click()
 confirmDialog = app[u"名前を付けて保存の確認"]
 # 確認Dialogウィンドが存在するかどうかの確認
 if confirmDialog.Exists(): 
-    print 'Update'
+    print('Update')
     # はいボタンの取得
     confirmButtion = confirmDialog[u'はい(&Y)']
     # ボタンをクリック
     confirmButtion.Click()
     # ボタンをクリック(タイミングにより反応しない場合はもう一度)
-    # confirmButtion.Click()  
+    confirmButtion.Click()  
 
 # メニューの終了を選択
 sleep(sleepSec) 
