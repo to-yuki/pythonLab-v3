@@ -12,7 +12,7 @@ app = application.Application(backend="win32")
 app.start("notepad.exe")
 
 # Notepad クラス (Notepad のウィンドウ) を探して日時を入力
-app.Notepad.Edit.SetText(unicode(datetime.now()))
+app.Notepad.Edit.SetText(datetime.now())
 
 # メニューを選択
 app.Notepad.MenuSelect(u"ファイル->名前を付けて保存")
