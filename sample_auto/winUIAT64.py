@@ -7,7 +7,7 @@ from time import sleep
 
 Popen('calc.exe', shell=True)
 dlg = Desktop(backend="uia").Calculator
-print dlg
+print(dlg)
 #dlg.type_keys('2*3=')
 dlg.print_control_identifiers()
 
