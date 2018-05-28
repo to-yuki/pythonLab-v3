@@ -4,7 +4,7 @@ from urllib import urlencode
 from bs4 import BeautifulSoup
 
 res = urllib2.urlopen('https://translate.google.com/?hl=ja#en/ja/q=aa')
-print res.read()
+print(res.read())
 
 
 

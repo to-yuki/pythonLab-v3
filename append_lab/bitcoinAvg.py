@@ -22,19 +22,19 @@ try:
                 raise Exception('return status code is {}'.format(response.status_code))
 
             # Responseデータの表示
-            #print(response.text)
+            # print(response.text)
             rate = json.loads(response.text)
 
             coinprice = float(rate['last_price'])
-            print(u"\t%-4s : ￥%-10s"% (coins[i][1], str(coinprice))),
+            print(u"\t%-4s : ￥%-10s"% (coins[i][1], str(coinprice)),end=" ")
 
             # 前回の価格と比較して上昇下降のマーキング
             if oldlast_price[i][1] < coinprice:
-                print(u"↑")
+                print("↑")
             elif oldlast_price[i][1] > coinprice:
-                print(u"↓")
+                print("↓")
             else:
-                print(u"→")
+                print("→")
             
             oldlast_price[i][1] = float(rate['last_price'])
         sleep(60)
