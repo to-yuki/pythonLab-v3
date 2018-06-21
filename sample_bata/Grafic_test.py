@@ -16,7 +16,7 @@ font = {'family' : 'Century Gothic',
 matplotlib.rc('font', **font)
 
 # Excel ファイルをロード  
-book = openpyxl.load_workbook(filename="test.xlsx",data_only=True)
+book = openpyxl.load_workbook(filename="SampleData.xlsx",data_only=True)
 # Excel シート名のリスト取得
 sheetnames = book.get_sheet_names()
 
