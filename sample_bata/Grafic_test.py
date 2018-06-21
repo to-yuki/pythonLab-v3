@@ -69,13 +69,16 @@ lang_test = plt.bar(range(1, x), lang_val, color = "b")
 math_test = plt.bar(range(1, x), math_val, color = "c", bottom = lang_val)
 plt.xticks(range(1, x), labels)
 plt.legend((lang_test, math_test), (lang, math))
+plt.savefig("bar.png")
 plt.show()
 
 # 散布図
 plt.scatter(lang_val, math_val)
 plt.xlabel("Japanese")
 plt.ylabel("Math")
+plt.savefig("scatter.png")
 plt.show()
+
 
 # 箱ひげ図
 point = (lang_val, math_val)
@@ -83,4 +86,6 @@ fig = plt.figure()
 ax = fig.add_subplot(111)
 bp = ax.boxplot(point)
 ax.set_xticklabels(["Japanese", "Math"])
+plt.savefig("boxplot.png")
 plt.show()
+
