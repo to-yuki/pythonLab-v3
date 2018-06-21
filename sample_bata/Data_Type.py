@@ -21,7 +21,7 @@ print(l)
 word = ["さい", "あいすくりーむ", "かいがら", "ななし", "たんばりん"]
 word.sort(reverse = True) # 50音順（逆）にする
 print(word)
-word.sort()　# 50音順にする
+#word.sort()　# 50音順にする
 print(word)
 word.sort(key=len) # 文字数順にする
 print(word)

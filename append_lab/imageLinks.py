@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 from __future__ import with_statement
-import urllib2
+import urllib.request
 from bs4 import BeautifulSoup
 
 # 先頭文字列がhttpでない場合、サイトURLを付与します
@@ -17,7 +17,7 @@ try:
     url = "http://www.disney.co.jp"
     # url = "http://yahoo.co.jp"
     # Webサイトへアクセスし、レスポンスが戻ります(<html>...</html>)
-    html = urllib2.urlopen(url)
+    html = urllib.request.urlopen(url)
     # htmlドキュメントを解析
     soup = BeautifulSoup(html, "html.parser")
     # タイトル Tag を取得する
