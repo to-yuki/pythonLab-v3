@@ -28,7 +28,7 @@ retrycount = 3
 for origin in list:
     if (origin == None or r == 0 ):
         r+=1
-        continue;
+        continue
     # 翻訳失敗時は retrycount 回リトライする
     while(retrycount != 0):
         try:
@@ -45,7 +45,7 @@ for origin in list:
             print(u"\t日本語:"),
             print(transValue)
             retrycount = 3
-            break;
+            break
         except:
             print(str(r)+u"行目翻訳リトライ。")
     else:

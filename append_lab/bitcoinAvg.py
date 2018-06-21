@@ -26,7 +26,7 @@ try:
             rate = json.loads(response.text)
 
             coinprice = float(rate['last_price'])
-            print(u"\t%-4s : ￥%-10s"% (coins[i][1], str(coinprice)),end=" ")
+            print("\t%-4s : ￥%-10s"% (coins[i][1], str(coinprice)),end=" ")
 
             # 前回の価格と比較して上昇下降のマーキング
             if oldlast_price[i][1] < coinprice:
