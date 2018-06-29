@@ -4,6 +4,13 @@ print(list[0])
 print(list[1])
 print(list[2])
 #print(list[3]) #ErrorCode
+list[0] = 0
+list.append(20)
+list.insert(3,40)
+list.remove(20)
+print(list[2])
+print(list[3])
+print(list)
 
 user_list = ['Yamada','Suzuki','Sato','Tanaka']
 print(user_list[2])
