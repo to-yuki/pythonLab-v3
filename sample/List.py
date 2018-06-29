@@ -11,6 +11,7 @@ list.remove(20)
 print(list[2])
 print(list[3])
 print(list)
+print()
 
 user_list = ['Yamada','Suzuki','Sato','Tanaka']
 print(user_list[2])
