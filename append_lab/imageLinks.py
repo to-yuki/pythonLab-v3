@@ -25,20 +25,20 @@ try:
     # Taitl 要素の文字列を取得する
     title = title_tag.string
     # タイトルを文字列を出力
-    print(title+u" サイトの画像リンクを回収します。")
+    print(title+" サイトの画像リンクを回収します。")
     # <a> を全て取得して、リンク情報を表示する
     list = soup.find_all("img")
-
+    
     # 保存ファイル名
     filename="imageLinks.csv"
 
     with open(filename,"w") as f:
         for img in list:
-            str =  img.get("src").encode('cp932')+"\n"
+            str =  img.get("src")+"\n"
             str =  urlReplacement(str,url)    
             f.write(str)
-    print(filename + u" ファイルにサイトの画像リンクを回収完了。")
+    print(filename + " ファイルにサイトの画像リンクを回収完了。")
     # 受信データの全てを表示する
     # print soup.encode('cp932')
 except:
-    print(u"IOError: ReTry please!")
+    print("IOError: ReTry please!")

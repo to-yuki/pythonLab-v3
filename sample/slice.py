@@ -8,8 +8,3 @@ print(y)
 str = "Hello Python!"
 str = str[6:12:1]
 print(str)
-
-dic = {"a":10,"b":20}
-x,y = dic
-print(dic[x])
-print(dic[y])
