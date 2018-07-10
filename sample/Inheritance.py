@@ -6,7 +6,7 @@ class Employee(object):  # Super Class
 
 	def base(self,base):
 		self.__money=base
-
+ 
 	def pay(self):
 		print('Total Salary Pay --> ' +str(int(self.__money)))
 
