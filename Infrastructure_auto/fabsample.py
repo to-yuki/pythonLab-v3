@@ -1,4 +1,5 @@
-# -*- coding: utf-8 -*-
+# fabric3 is Pythoin3's fabric(Ver.1) compatible library
+# pip uninstall fabric;pip intall fabric3
 
 from fabric.api import run
 from fabric.api import execute
@@ -18,8 +19,8 @@ def task():
     print('Start SSH Session : ' + str(env.host))
     run('hostname')
     run('ip addr show')
-    #response = run('exit 0',warn_only=True,quiet=True)
-    response = run('exit 1',warn_only=True,quiet=True) # command return code not 0 
+    response = run('exit 0',warn_only=True,quiet=False)
+    #response = run('exit 1',warn_only=True,quiet=False) # command return code not 0 
     if not response.succeeded:
         raise RuntimeError("Oops! Command return code not 0 ")
 
