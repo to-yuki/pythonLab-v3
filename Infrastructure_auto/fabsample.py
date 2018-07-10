@@ -3,6 +3,7 @@
 from fabric.api import run
 from fabric.api import execute
 from fabric.api import env
+import sys
 
 def task():
 
@@ -16,15 +17,23 @@ def task():
     print('---------------------------------------')
     print('Start SSH Session : ' + str(env.host))
     run('hostname')
-    run('ip addr show ens33')
-    run('exit 0')
+    run('ip addr show')
+    #response = run('exit 0',warn_only=True,quiet=True)
+    response = run('exit 1',warn_only=True,quiet=True) # command return code not 0 
+    if not response.succeeded:
+        raise RuntimeError("Oops! Command return code not 0 ")
 
 def main():
     env.user = 'student'
     #env.password = 'student'
     #env.port = 22
     env.key_filename = ['id_rsa']
-    execute(task, hosts=['student@192.168.19.128','student@192.168.19.129'])
+    try:
+        execute(task, hosts=['student@192.168.19.128','student@192.168.19.129'])
+    except RuntimeError as r:
+        print()
+        sys.stderr.write('Runtime Error!')
+        sys.stderr.write(str(r.args))
     print('Done!')
 
 
