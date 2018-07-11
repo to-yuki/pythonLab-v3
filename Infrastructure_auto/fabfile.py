@@ -6,40 +6,57 @@ from invoke import task # @task annotation
 import sys
 
 # run > fab2 -H 192.168.19.128,192.168.19.129 hostnames
+# run > fab2 -H 192.168.19.128,192.168.19.129 chpasswd --passwd newpasswd
 
 Config.ssh_config_path = "ssh_config"
-@task
-def hostname(host):
-    """ 対象ホストのホスト名を取得するサンプル """
-    #print(host.host)
-    command = "hostname"
-    return host.run(command, hide=True).stdout.strip()
 
 @task
-def ip(host):
-    """ 対象ホストのIPを取得するサンプル """
+def help(host):
+    """ Helpの表示 """
+    print("ツールの使い方")
+    print("    fab2 -H hostname1,hostname2... taskNmae1 --taskOption1 ...")
+    print("タスクリストの表示")
+    print("    fab2 --list")
+
+# ALL HOSTs RUN COMMAND
+@task
+def ahc(host,command,hide=False,hostNameShow=True):
+    """ 指定されたコマンドを実行する fab2 Option --command 新規パスワード """
+    if hostNameShow:
+        print(host.host)
+    return host.run(command, hide=hide).stdout.strip()
+
+@task
+def hostname(host,hide=False):
+    """ 対象ホストのホスト名を取得する """
+    #print(host.host)
+    command = "hostname"
+    return host.run(command, hide=hide).stdout.strip()
+
+@task
+def ip(host,hide=False):
+    """ 対象ホストのIPを取得する """
     #print('Run Host Name/IP : ' + str(host.host))
     command = "ip addr"
-    return host.run(command, hide=True).stdout.strip()
+    return host.run(command, hide=hide).stdout.strip()
     
 @task
-def disk_free(host):
-    """ 対象ホストのDisk使用率を取得するサンプル """
-    result = host.run('uname -s', hide=True)
+def disk_free(host,hide=False):
+    """ 対象ホストのDisk使用率を取得する """
+    result = host.run('uname -s', hide=hide)
     uname = result.stdout.strip()
     if 'Linux' in uname:
-        #command = "df -h / | tail -n1 | awk '{print $5}'"
         command = "df -h"
-        return host.run(command, hide=True).stdout.strip()
+        return host.run(command, hide=hide).stdout.strip()
     err = "No idea how to get disk space on {}!".format(uname)
     raise RuntimeError(err)
 
 @task 
-def chpasswd(host,passwd):
-    """ 対象ホストのパスワードを変更する """
+def chpasswd(host,passwd,hide=False):
+    """ 対象ホストのパスワードを変更する fab2 Option --passwd 新規パスワード """
     #print(host.host)
     command = "echo 'root:" + passwd + "' | chpasswd"
-    result = host.run(command, hide=True)
+    result = host.run(command, hide=hide)
     if result.exited != 0:
         err = "Password could not be changed!"
         raise RuntimeError(err)
@@ -54,11 +71,14 @@ def main():
         for host in hosts:
             con = Connection(host)
             # All Rask Run
+            print()
             print('==============')
-            print(hostname(con))
-            print(ip(con))
-            print(disk_free(con))
-            print(chpasswd(con,"python"))
+            print(ahc(con,"date",hide=True,hostNameShow=False))
+            print(hostname(con,hide=True))
+            print(ip(con,hide=True))
+            print(disk_free(con,hide=True))
+            print(chpasswd(con,"python",hide=True))
+            con.close()
             
     except RuntimeError as r:
         sys.stderr.write('=== Runtime Error! ===')
