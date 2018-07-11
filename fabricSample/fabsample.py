@@ -1,4 +1,5 @@
 # fabric3 is Pythoin3's fabric(Ver.1) compatible library
+# The fabric3 module is required for the execution of this file.
 # pip uninstall fabric;pip intall fabric3
 
 from fabric.api import run

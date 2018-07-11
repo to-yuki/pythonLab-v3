@@ -1,13 +1,9 @@
 from fabric2 import Config # SSHコンフィグレーション
 from fabric2 import Connection # コネクション
-from fabric2 import ThreadingGroup # マルチスレッド実行
-from fabric2 import SerialGroup # シングルスレッド実行
 from invoke import task # @task annotation
 import sys
 
-# run > fab2 -H 192.168.19.128,192.168.19.129 hostnames
-# run > fab2 -H 192.168.19.128,192.168.19.129 chpasswd --passwd newpasswd
-
+# SSH の設定ファイル指定
 Config.ssh_config_path = "ssh_config"
 
 @task
