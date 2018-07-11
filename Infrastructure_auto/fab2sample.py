@@ -1,9 +1,9 @@
-from fabric2 import Config 
-from fabric2 import Connection 
+from fabric2 import Config # SSHコンフィグレーション
+from fabric2 import Connection # コネクション
 from fabric2 import ThreadingGroup # マルチスレッド実行
 from fabric2 import SerialGroup # シングルスレッド実行
+from invoke import task # @task annotation
 from invoke import Responder 
-from invoke import task
 
 #con = Connection("student@192.168.19.128", connect_kwargs = { "key_filename": "id_rsa"})
 hosts=('192.168.19.128','192.168.19.129')
@@ -33,4 +33,3 @@ for connection, result in results.items():
 # Auto Input Response 
 # sudopass = Responder(pattern=r'\[sudo\] password:',response='mypassword\n')
 # c.run('sudo whoami', pty=True, watchers=[sudopass])
-
