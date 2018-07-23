@@ -7,4 +7,3 @@ else:
 map = {1:'America',39:'Italia',81:'Japan'}
 for cun in map:
 	print(map[cun])
-

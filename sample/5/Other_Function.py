@@ -17,7 +17,7 @@ def funcKeyArg(id='null',name='null'):
 	print(id),
 	print(name)
 
-funcKeyArg(name='Yamada',id='001')
+fu ncKeyArg(name='Yamada',id='001')
 
 # lambda 
 f = lambda x: x + 1

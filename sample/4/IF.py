@@ -10,6 +10,3 @@ if b:
 	print('True')
 else:
 	print('False')
-
-
-

@@ -30,12 +30,12 @@ ansf = f + 123.0
 
 print(ansf)
 
-print('left  : {:<10}'.format(ans)) # 左寄せ
-print('left  : {:<10}'.format(ansf)) # 左寄せ
-print('center: {:^10}'.format(ans)) # 中央
-print('left  : {:^10}'.format(ansf)) # 中央
-print('right : {:>10}'.format(ans)) # 右寄せ
-print('left  : {:>10}'.format(ansf)) # 右寄せ
+print('left:{:<10}'.format(ans)) # 左寄せ
+print('left:{:<10}'.format(ansf)) # 左寄せ
+print('center:{:^10}'.format(ans)) # 中央
+print('center:{:^10}'.format(ansf)) # 中央
+print('right:{:>10}'.format(ans)) # 右寄せ
+print('right:{:>10}'.format(ansf)) # 右寄せ
 
 print('{1} , {0}'.format(ansf, ans)) # 表示位置指定
 
