@@ -8,3 +8,5 @@ print(y)
 str = "Hello Python!"
 str = str[6:12:1]
 print(str)
+str = str[:-3]
+print(str)
