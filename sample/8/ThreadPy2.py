@@ -1,8 +1,8 @@
-import threading
+from threading import Thread
 from time import sleep
 
 # threading.Thread クラスを継承
-class MyThread(threading.Thread):
+class MyThread(Thread):
 
     # 表示メッセージ
     __msg = None
