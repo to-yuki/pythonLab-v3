@@ -5,5 +5,5 @@ def main():
     p = Product(sys.argv[1], sys.argv[2], sys.argv[3])
     p.display()
 
-if __name__ == "__main__" :
+if __name__ == '__main__' :
     main()

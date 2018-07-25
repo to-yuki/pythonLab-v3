@@ -1,4 +1,4 @@
-import threading, sys
+import sys
 from time import sleep
 from threading import Thread
 
@@ -20,8 +20,8 @@ def main():
     argvCount = len(sys.argv)
 
     for i in range(1, argvCount):
-        t = MassageThread("Run! " + sys.argv[i])
+        t = MassageThread('Run! ' + sys.argv[i])
         t.start()
 
-if __name__ == "__main__" :
+if __name__ == '__main__' :
     main()

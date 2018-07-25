@@ -5,40 +5,40 @@ from bs4 import BeautifulSoup
 
 # 先頭文字列がhttpでない場合、サイトURLを付与します
 def urlReplacement(str,url):
-    if(str.find("//") != -1 and str.find("http") == -1):
-        return "https:"+str # URLの先頭が//で始まっている場合プロトコルの追加
-    elif(str.find("http") == -1):
+    if(str.find('//') != -1 and str.find('http') == -1):
+        return 'https:'+str # URLの先頭が//で始まっている場合プロトコルの追加
+    elif(str.find('http') == -1):
         return url+str # URLがhttpで始まっていな場合サイトアドレスの追加
     else:
         return str
 
 try:
 # 解析するWebサイトのURL(最後の/は入力しない)
-    url = "http://www.disney.co.jp"
-    # url = "http://yahoo.co.jp"
+    url = 'http://www.disney.co.jp'
+    # url = 'http://yahoo.co.jp'
     # Webサイトへアクセスし、レスポンスが戻ります(<html>...</html>)
     html = urllib.request.urlopen(url)
     # htmlドキュメントを解析
-    soup = BeautifulSoup(html, "html.parser")
+    soup = BeautifulSoup(html, 'html.parser')
     # タイトル Tag を取得する
     title_tag = soup.title
     # Taitl 要素の文字列を取得する
     title = title_tag.string
     # タイトルを文字列を出力
-    print(title+" サイトの画像リンクを回収します。")
+    print(title+' サイトの画像リンクを回収します。')
     # <a> を全て取得して、リンク情報を表示する
-    list = soup.find_all("img")
+    list = soup.find_all('img')
     
     # 保存ファイル名
-    filename="imageLinks.csv"
+    filename='imageLinks.csv'
 
-    with open(filename,"w") as f:
+    with open(filename,'w') as f:
         for img in list:
-            str =  img.get("src")+"\n"
+            str =  img.get('src')+'\n'
             str =  urlReplacement(str,url)    
             f.write(str)
-    print(filename + " ファイルにサイトの画像リンクを回収完了。")
+    print(filename + ' ファイルにサイトの画像リンクを回収完了。')
     # 受信データの全てを表示する
     # print soup.encode('cp932')
 except:
-    print("IOError: ReTry please!")
+    print('IOError: ReTry please!')

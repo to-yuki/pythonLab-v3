@@ -12,5 +12,5 @@ class Appliance(Product):
 
     def display(self):
         super().display()
-        print("消費電力 : ", end ="")
+        print('消費電力 : ', end ='')
         print(self.__elec_consumption)

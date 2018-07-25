@@ -21,7 +21,7 @@ print('=========================================')
 mainDialog.MenuSelect('書式->フォント')
 
 # フォントダイアログの取得と制御要素の表示
-fontDialog = app[u'フォント']
+fontDialog = app['フォント']
 fontDialog.PrintControlIdentifiers()
 
 # アプリケーションのプロセスの kill

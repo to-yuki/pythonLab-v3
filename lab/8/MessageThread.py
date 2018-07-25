@@ -21,8 +21,8 @@ def main():
     argvCount = len(sys.argv)
 
     for i in range(1, argvCount):
-        t = MassageThread("Run! " + sys.argv[i])
+        t = MassageThread('Run! ' + sys.argv[i])
         # Thread を実行するコードを記述してください。
 
-if __name__ == "__main__" :
+if __name__ == '__main__' :
     main()

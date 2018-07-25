@@ -12,6 +12,6 @@ class Wear(Product):
 
     def display(self):
         super().display()
-        print("サイズ   : ", end ="")
+        print('サイズ   : ', end ='')
         print(self.__size)
 

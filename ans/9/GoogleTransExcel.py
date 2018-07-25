@@ -4,7 +4,7 @@ import requests
 import re
  
 # Excel ファイルをロード  
-book = openpyxl.load_workbook(filename="GoogleTransExcel.xlsx",data_only=True)
+book = openpyxl.load_workbook(filename='GoogleTransExcel.xlsx',data_only=True)
 # Excel シート名のリスト取得
 sheetnames = book.get_sheet_names()
 # 1番目のシートにアクセス
@@ -19,7 +19,7 @@ for r in range(1,sheet.max_row+1):
 # 正規表現文字列のコンパイル
 pattern = re.compile(r"TRANSLATED_TEXT='(.*?)'")
 # GoogleTranslateURL
-url = u'https://translate.google.com/?hl=ja#en/ja/'
+url = 'https://translate.google.com/?hl=ja#en/ja/'
 # 行カウンタのリセット
 r = 0
 # 翻訳エラー時のリトライ回数
@@ -39,20 +39,20 @@ for origin in list:
             # 翻訳テキストの書き込み列は column で指定
             sheet.cell(row=r+1,column=2).value = transValue
             print
-            print(str(r)+u"行目 [translate.google.com] で翻訳") 
-            print(u"\t英語:"),
+            print(str(r)+'行目 [translate.google.com] で翻訳') 
+            print('\t英語:'),
             print(origin)
-            print(u"\t日本語:"),
+            print('\t日本語:'),
             print(transValue)
             retrycount = 3
             break
         except:
-            print(str(r)+u"行目翻訳リトライ。")
+            print(str(r)+'行目翻訳リトライ。')
     else:
-        print(str(r)+u"行目:翻訳エラーのリトライ回数をオーバーしたので、スキップします。")
+        print(str(r)+'行目:翻訳エラーのリトライ回数をオーバーしたので、スキップします。')
     r+=1
 # ワークブックの保存
 try:
-    book.save("GoogleTransExcel-OK.xlsx")
+    book.save('GoogleTransExcel-OK.xlsx')
 except:
-    print(u"Excelファイル保存エラーです。")
+    print('Excelファイル保存エラーです。')
