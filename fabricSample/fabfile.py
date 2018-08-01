@@ -51,7 +51,7 @@ def disk_free(host,hide=False):
 def chpasswd(host,passwd,hide=False):
     ''' 対象ホストのパスワードを変更する fab2 Option --passwd 新規パスワード '''
     #print(host.host)
-    command = 'echo 'root:' + passwd + '' | chpasswd'
+    command = "echo 'root:" + passwd + "' | chpasswd"
     result = host.run(command, hide=hide)
     if result.exited != 0:
         err = 'Password could not be changed!'
