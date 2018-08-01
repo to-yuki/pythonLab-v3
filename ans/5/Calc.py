@@ -14,6 +14,7 @@ def calc(val1,operator,val2):
     else:
         raise ArithmeticError("Input Error")
 
+
 #-- Main-Satrt --#
 def main():
     try:
