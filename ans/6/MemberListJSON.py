@@ -23,17 +23,17 @@ try:
             else:
                 no = int(no)
 
-            for menber in members:
-                if no == menber['number']: # 入力された数値と一致する背番号のメンバーを探す
-                    #pprint.pprint(menber)
+            for member in members:
+                if no == member['number']: # 入力された数値と一致する背番号のメンバーを探す
+                    #pprint.pprint(member)
                     print('matched!')
                     print('----------------------------')
-                    print('number :' , menber['number'])
-                    print('name :' , menber['name'])
-                    print('annual salary :' , menber['annual salary'])
-                    print('age :', menber['age'])
-                    print('height :' , menber['height'])
-                    print('weight :' , menber['weight'])
+                    print('number :' , member['number'])
+                    print('name :' , member['name'])
+                    print('annual salary :' , member['annual salary'])
+                    print('age :', member['age'])
+                    print('height :' , member['height'])
+                    print('weight :' , member['weight'])
                     print('')
                     break
             else:
