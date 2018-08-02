@@ -8,21 +8,16 @@ def number_input():
     return no
 
 try:
-    j_file = open('employee.json', 'r')
+    j_file = open('members.json', 'r')
     j_dict = json.load(j_file) # json形式から辞書型に変換する
-    members = j_dict['member']
+    members = j_dict['members']
     #pprint.pprint(members) # pprint()を使用すると、辞書型データを整形して出力できる
-
-    # 各メンバーのnumberだけ選んで、valueをリスト型のデータに格納する
-    numbers = []
-    for member in members:
-        numbers.append(member['number'])
 
     no = None
     while True: # stopと入力されるまで、同じ処理を繰り返す
         try:
-            
             no = number_input()
+
             if no == 'stop':
                 break
             else:
@@ -33,12 +28,12 @@ try:
                     #pprint.pprint(menber)
                     print('matched!')
                     print('----------------------------')
-                    print('number : ' , menber['number'])
-                    print('name : ' , menber['name'])
-                    print('annual salary : ' , menber['annual salary'])
-                    print('age : ', menber['age'])
-                    print('height' , menber['height'])
-                    print('weight' , menber['weight'])
+                    print('number :' , menber['number'])
+                    print('name :' , menber['name'])
+                    print('annual salary :' , menber['annual salary'])
+                    print('age :', menber['age'])
+                    print('height :' , menber['height'])
+                    print('weight :' , menber['weight'])
                     print('')
                     break
             else:
