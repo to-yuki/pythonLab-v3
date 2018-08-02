@@ -13,16 +13,16 @@ print(app.process)
 #mainDialog = app.top_window_() # TopWindow のダイアログ取得
 #mainDialog = app.Notepad # コンポーネント指定のダイアログ取得
 mainDialog = app['無題 - メモ帳'] # 指定 taitle のダイアログ取得
-mainDialog.PrintControlIdentifiers()
+mainDialog.print_control_identifiers()
 
 print('=========================================')
 
 # Main Window のメニュー操作(フォントダイアログを開く)
-mainDialog.MenuSelect('書式->フォント')
+mainDialog.menu_select('書式->フォント')
 
 # フォントダイアログの取得と制御要素の表示
 fontDialog = app['フォント']
-fontDialog.PrintControlIdentifiers()
+fontDialog.print_control_identifiers()
 
 # アプリケーションのプロセスの kill
 app.kill()
