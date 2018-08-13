@@ -1,6 +1,6 @@
 import codecs, sys
 
-# 2つの値を比較する関数。戻り値は二つの値を受け取る
+# 2つの値を比較する関数。
 def compair(val1, val2):
     if val1 > val2:
         return val1

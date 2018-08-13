@@ -5,5 +5,5 @@ with open(sys.argv[1], 'r') as file:
     for line in file:
         print(line,end='')
         count += 1
-    print('行数：', end = " ")
+    print('行数：', end = ' ')
     print(count)
