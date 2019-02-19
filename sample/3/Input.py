@@ -6,5 +6,5 @@ print('Input Name: ',end=' ')
 print(name)
 
 passwd = getpass()
-print('Input Password : ',end=' ')
+print('Input Passwd : ',end=' ')
 print(passwd)

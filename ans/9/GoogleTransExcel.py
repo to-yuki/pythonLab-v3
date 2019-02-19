@@ -48,6 +48,7 @@ for origin in list:
             break
         except:
             print(str(r)+'行目翻訳リトライ。')
+            retrycount -= 1
     else:
         print(str(r)+'行目:翻訳エラーのリトライ回数をオーバーしたので、スキップします。')
     r+=1
