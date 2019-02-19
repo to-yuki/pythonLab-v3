@@ -1,7 +1,7 @@
-from logging import Formatter,getLogger,basicConfig ,INFO,WARNING,ERROR,DEBUG,CRITICAL
+from logging import getLogger,basicConfig,INFO,WARNING,ERROR,DEBUG,CRITICAL
 
 # フォーマットを定義
-formatter = '%(levelname)s : %(asctime)s : %(message)s'
+formatter = '%(asctime)s [%(levelname)-8s] %(message)s (%(filename)s:%(lineno)s)'
 basicConfig(format=formatter,level=INFO)
 
 LOGGER = getLogger(__name__)
