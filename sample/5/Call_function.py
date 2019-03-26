@@ -22,16 +22,16 @@ def func4(n):
 
 print('func1():')
 func1()
-print
+print()
 
 print('func2(10):')
 func2(10)
-print
+print()
 
 print('func3():')
 i = func3()
 print(i)
-print
+print()
 
 print('func4(10):')
 i2 = func4(10)
