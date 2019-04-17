@@ -28,6 +28,7 @@ def main():
 	#print(cust2.newVal)  # Error Code
 
 	#print(cust1.__name)    # __ Private Access
+	#print(cust1._Customer__name) # __ Private Access
 
 # -- Main function Define--#
 if __name__ == '__main__':
