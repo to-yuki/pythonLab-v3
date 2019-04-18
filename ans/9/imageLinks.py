@@ -3,7 +3,7 @@ from __future__ import with_statement
 import urllib.request
 from bs4 import BeautifulSoup
 import ssl
-#ssl._create_default_https_context = ssl._create_unverified_context
+ctx = ssl.create_default_context(cafile='cacert.pem')
 
 # 先頭文字列がhttpでない場合、サイトURLを付与します
 def urlReplacement(str,url):
@@ -19,7 +19,7 @@ try:
     url = 'https://www.disney.co.jp'
     # url = 'http://yahoo.co.jp'
     # Webサイトへアクセスし、レスポンスが戻ります(<html>...</html>)
-    html = urllib.request.urlopen(url,cafile='cacert.pem')
+    html = urllib.request.urlopen(url,context=ctx)
     # htmlドキュメントを解析
     soup = BeautifulSoup(html, 'html.parser')
     # タイトル Tag を取得する

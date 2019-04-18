@@ -6,8 +6,8 @@ from time import sleep
 import datetime
 import locale
 import ssl
-#ssl._create_default_https_context = ssl._create_unverified_context
 
+ctx = ssl.create_default_context(cafile='cacert.pem')
 locale.setlocale(locale.LC_ALL,'ja_JP')
 
 # 日本経済新聞
@@ -15,7 +15,7 @@ url = 'https://www.nikkei.com/markets/kabu/'
 try:
     # 取引時間は午前９時～11時と午後０時30分～３時
     while True:
-        html = urllib.request.urlopen(url,cafile='cacert.pem')
+        html = urllib.request.urlopen(url,context=ctx)
         soup = BeautifulSoup(html, 'html.parser')
         list = soup.find_all('span')
         nikkei_heikin = None
