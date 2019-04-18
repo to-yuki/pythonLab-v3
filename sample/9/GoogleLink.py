@@ -1,11 +1,13 @@
 import urllib.request
+import ssl
 from bs4 import BeautifulSoup
 
+ctx = ssl.create_default_context(cafile='cacert.pem')
 # 解析するWebサイトのURL
 url = 'https://google.co.jp/'
 
 # Webサイトへアクセスし、レスポンスが戻ります(<html>...</html>)
-html = urllib.request.urlopen(url,cafile='cacert.pem')
+html = urllib.request.urlopen(url,context=ctx)
 
 # htmlドキュメントを解析
 soup = BeautifulSoup(html, 'html.parser',from_encoding='UTF-8')
