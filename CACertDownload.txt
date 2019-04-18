@@ -1,0 +1,4 @@
+CAの証明書取得サイト
+
+https://curl.haxx.se/ca/cacert.pem
+https://mkcert.org/generate/

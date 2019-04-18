@@ -2,10 +2,10 @@ import urllib.request
 from bs4 import BeautifulSoup
 
 # 解析するWebサイトのURL
-url = 'http://google.co.jp/'
+url = 'https://google.co.jp/'
 
 # Webサイトへアクセスし、レスポンスが戻ります(<html>...</html>)
-html = urllib.request.urlopen(url)
+html = urllib.request.urlopen(url,cafile='cacert.pem')
 
 # htmlドキュメントを解析
 soup = BeautifulSoup(html, 'html.parser',from_encoding='UTF-8')
