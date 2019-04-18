@@ -13,7 +13,7 @@ locale.setlocale(locale.LC_ALL,'ja_JP')
 # 日本経済新聞
 url = 'https://www.nikkei.com/markets/kabu/'
 try:
-    # 取引時間は午前９時～11時と午後０時30分～３時
+    # 取引時間は午前9時～11時と午後0時30分～3時
     while True:
         html = urllib.request.urlopen(url,context=ctx)
         soup = BeautifulSoup(html, 'html.parser')
