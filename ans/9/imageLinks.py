@@ -2,6 +2,8 @@
 from __future__ import with_statement
 import urllib.request
 from bs4 import BeautifulSoup
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 
 # 先頭文字列がhttpでない場合、サイトURLを付与します
 def urlReplacement(str,url):
@@ -14,7 +16,7 @@ def urlReplacement(str,url):
 
 try:
 # 解析するWebサイトのURL(最後の/は入力しない)
-    url = 'http://www.disney.co.jp'
+    url = 'https://www.disney.co.jp'
     # url = 'http://yahoo.co.jp'
     # Webサイトへアクセスし、レスポンスが戻ります(<html>...</html>)
     html = urllib.request.urlopen(url)
@@ -40,5 +42,5 @@ try:
     print(filename + ' ファイルにサイトの画像リンクを回収完了。')
     # 受信データの全てを表示する
     # print soup.encode('cp932')
-except:
-    print('IOError: ReTry please!')
+except Exception as e:
+    print('IOError: ReTry please!' + str(e))

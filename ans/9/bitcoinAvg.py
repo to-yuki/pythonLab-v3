@@ -5,7 +5,7 @@ from time import sleep
 import datetime
 import locale
 
-locale.setlocale(locale.LC_ALL,'Japanese')
+locale.setlocale(locale.LC_ALL,'ja_JP')
 
 # coin List
 coins = [[1,'BTC','btc_jpy'],[2,'XEM','xem_jpy'],[3,'MONA','mona_jpy']]

@@ -1,21 +1,12 @@
 # -*- coding: UTF-8 -*-
-import requests
-import re
- 
-origin = u'Automate your work with Python.'
-url = u'https://translate.google.com/?hl=ja#en/ja/'
-response = requests.get(url, params={'q': origin})
+from googletrans import Translator
 
-# 受信データを全て表示する
-#print(response.text)
+translator = Translator()
 
-# resopnse 内にある JavaScript コードから翻訳された
-# 文字列を取得 TRANSLATED_TEXT='(翻訳されて文字列)'
-pattern = r"TRANSLATED_TEXT='(.*?)'"
-transValue = re.search(pattern,response.text).group(1)
+# 日本語 -> 英語
+result = translator.translate(text='Automate your work with Python.', dest='ja')
+print(result.text)
 
-print('[translate.google.com] で翻訳') 
-print('英語:',end=' ') 
-print(origin)
-print('日本語:',end=' ') 
-print(transValue)
+# 英語 -> 日本語
+result = translator.translate(text='Pythonで作業を自動化しましょう。', dest='en')
+print(result.text)

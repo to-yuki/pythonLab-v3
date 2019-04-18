@@ -5,11 +5,13 @@ from bs4 import BeautifulSoup
 from time import sleep
 import datetime
 import locale
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 
-locale.setlocale(locale.LC_ALL,'Japanese')
+locale.setlocale(locale.LC_ALL,'ja_JP')
 
 # 日本経済新聞
-url = 'http://www.nikkei.com/markets/kabu/'
+url = 'https://www.nikkei.com/markets/kabu/'
 try:
     # 取引時間は午前９時～11時と午後０時30分～３時
     while True:
