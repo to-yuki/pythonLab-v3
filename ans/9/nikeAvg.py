@@ -7,7 +7,9 @@ import datetime
 import locale
 import ssl
 
+# CA認証局のカスタムCert設定
 ctx = ssl.create_default_context(cafile='cacert.pem')
+# システムロケールの指定
 locale.setlocale(locale.LC_ALL,'ja_JP')
 
 # 日本経済新聞

@@ -3,7 +3,11 @@ from __future__ import with_statement
 import urllib.request
 from bs4 import BeautifulSoup
 import ssl
+
+# CA認証局のカスタムCert設定
 ctx = ssl.create_default_context(cafile='cacert.pem')
+# システムロケールの指定
+locale.setlocale(locale.LC_ALL,'ja_JP')
 
 # 先頭文字列がhttpでない場合、サイトURLを付与します
 def urlReplacement(str,url):

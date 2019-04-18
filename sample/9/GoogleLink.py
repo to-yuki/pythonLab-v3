@@ -2,6 +2,7 @@ import urllib.request
 import ssl
 from bs4 import BeautifulSoup
 
+# CA認証局のカスタムCert設定
 ctx = ssl.create_default_context(cafile='cacert.pem')
 # 解析するWebサイトのURL
 url = 'https://google.co.jp/'
