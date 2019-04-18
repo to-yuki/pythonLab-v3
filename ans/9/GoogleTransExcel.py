@@ -31,9 +31,8 @@ for origin in list:
     # 翻訳失敗時は retrycount 回リトライする
     while(retrycount != 0):
         try:
-            # resopnse 内にある JavaScript コードから翻訳された文字列を取得
+            # Googleで翻訳
             transValue = translator.translate(text=origin, dest='ja')
-            #print(transValue)
             # ExcelSheetに書き込み(list->0,excel->1)
             # 翻訳テキストの書き込み列は column で指定
             sheet.cell(row=r+1,column=2).value = transValue.text
