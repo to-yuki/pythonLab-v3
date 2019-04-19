@@ -1,7 +1,5 @@
-day = "Today"
-weather = "rain"
 def display():
-    print(day + "'s weather is " + weather + ".")
+    print("Today's weather is rain.")
 
 # display関数を呼び出すコードを記述してください。
 display()
