@@ -5,6 +5,5 @@ def display(day,weather):
 # display関数を呼び出すコードを記述してください。
 day = "Today"
 weather = "rain"
-# 以下に display()関数を呼び出し、戻り値を受けるコードを記述してください。
 
 print(result)
