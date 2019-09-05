@@ -3,6 +3,3 @@ def display(day,weather):
     print(day + "'s weather is " + weather + ".")
 
 # display関数を呼び出すコード。
-day = "Today"
-weather = "rain"
-display(day,weather)
