@@ -1,20 +1,17 @@
-# Non Args
-def func1():
-	print('function1')
+# 引数無し、戻り値無し
+def greeting():
+	print('Hello')
 
-# 1 Args
-def func2(n):
-	print('function2'),
-	print(n)
+# 引数1つ、戻り値無し
+def sayHello(name):
+	print('Hello ',end='')
+	print(name)
 
-# Non Args return
-def func3():
-	print('function3')
-	n = 10
-	return n
+# 引数なし、戻り値1つ
+def createNumber():
+	return 100
 
-# 1 Args return
-def func4(n):
-	print('function4')
-	return n
+# 引数1つ、戻り値1つ
+def doubleNumber(number):
+	return number*2
 

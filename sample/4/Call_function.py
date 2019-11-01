@@ -1,40 +1,37 @@
-# Non Args
-def func1():
-	print('	function1') #Tab Space
+# 引数無し、戻り値無し
+def greeting():
+	print('Hello')
 
-# 1 Args
-def func2(n):
-	print('	function2') #Tab Space
-	print(n)
+# 引数1つ、戻り値無し
+def sayHello(name):
+	print('Hello ',end='')
+	print(name)
 
-# Non Args return
-def func3():
-	print('	function3') #Tab Space
-	n = 10
-	return n
+# 引数なし、戻り値1つ
+def createNumber():
+	return 100
 
-# 1 Args return
-def func4(n):
-	print('	function4') #Tab Space
-	return n
+# 引数1つ、戻り値1つ
+def doubleNumber(number):
+	return number*2
 
-# Call function
+# ここから関数の呼び出し
 
-print('func1():')
-func1()
+print('greeting():')
+greeting()
 print()
 
-print('func2(10):')
-func2(10)
+print('sayHello("Python"):')
+sayHello('Python')
 print()
 
-print('func3():')
-i = func3()
+print('createNumber():')
+i = createNumber()
 print(i)
 print()
 
-print('func4(10):')
-i2 = func4(10)
+print('doubleNumber(10):')
+i2 = doubleNumber(10)
 print(i2)
 
 

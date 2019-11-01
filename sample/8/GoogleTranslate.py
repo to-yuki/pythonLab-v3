@@ -1,4 +1,3 @@
-# -*- coding: UTF-8 -*-
 from googletrans import Translator
 
 translator = Translator()

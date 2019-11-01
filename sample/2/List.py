@@ -3,7 +3,7 @@ print(list)
 print(list[0])
 print(list[1])
 print(list[2])
-#print(list[3]) #ErrorCode
+#print(list[3]) #Error Code 存在しない要素へのアクセス
 list[0] = 0
 list.append(20)
 list.insert(3,40)

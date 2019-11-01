@@ -1,4 +1,4 @@
-import threading
+from threading import Thread
 from time import sleep
 
 # スレッド化する関数1
@@ -19,10 +19,10 @@ def thread2():
 # メインスレッド関数
 def mainThread():
     # スレッドオブジェクトの作成
-    t1 = threading.Thread(target=thread1)
-    t2 = threading.Thread(target=thread2)
+    t1 = Thread(target=thread1) # キーワード引数でスレッド化する関数を指定
+    t2 = Thread(target=thread2)
 
-    # 作成したスレッドオブジェクトのスタート
+    # 作成したスレッドオブジェクトの起動
     t1.start()
     t2.start()
 

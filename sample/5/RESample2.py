@@ -21,5 +21,3 @@ for s in list:
 print('全体から q= の値を取得')
 result = re.search(r'q=(.*?)&',requestString).group(1)
 print(result)
-
-

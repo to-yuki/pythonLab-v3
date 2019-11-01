@@ -4,8 +4,8 @@ print(tuple[0])
 print(tuple[1])
 print(tuple[2])
 print()
-# print(tuple[3]) # Error Code
-# tuple[0] = 0 # Error Code タプルのデータは変更はできない
+# print(tuple[3]) # Error Code 存在しない要素へのアクセス
+# tuple[0] = 0 # Error Code タプルのデータは変更できない
 
 users = ('Yamada','Suzuki','Sato','Tanaka')
 print(users[2])

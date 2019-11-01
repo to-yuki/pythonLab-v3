@@ -72,3 +72,4 @@ except:
     except:
         pass
     print('メール送信エラー!?')
+    

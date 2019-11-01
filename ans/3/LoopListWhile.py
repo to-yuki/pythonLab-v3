@@ -6,7 +6,6 @@ import sys
 # 
 
 # 解答例1 while構文1
-print('')
 print('while_1：')
 i = 0
 while i < len(sys.argv):
@@ -14,7 +13,7 @@ while i < len(sys.argv):
     i += 1
 
 # 解答例2 while構文2
-print('')
+print()
 print('while_2：')
 i = 0
 r = 0
@@ -24,4 +23,4 @@ while i < len(sys.argv):
         r += 1
     i += 1
     r = 0
-    print('')
+    print()

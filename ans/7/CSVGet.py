@@ -1,4 +1,3 @@
-from __future__ import with_statement
 import codecs
 
 # CSVファイルからデータを取得するメソッド
@@ -10,5 +9,5 @@ def get_data(file_name, encode):
             if count == 0: # 1行目は日付なので、取得しない
                 count += 1
             else:
-                data_list.append(line.strip().split(',')) #strip()で行末の不要の文字列を除去
+                data_list.append(line.strip().split(',')) #strip()で前後の不要なエスケープ文字や空白を除去
     return data_list

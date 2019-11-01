@@ -1,5 +1,3 @@
-# -*- coding: UTF-8 -*-
-
 from datetime import datetime
 from pywinauto import application
 from time import sleep

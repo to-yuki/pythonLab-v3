@@ -1,10 +1,10 @@
 import sys
 
-#-- taxCalc Function --#
+# 税計算関数
 def taxCalc(price,tax=0.0):
     return price * (1+tax)
 
-#-- Main-Satrt --#
+# main関数
 def main():
     try:
         price = int(sys.argv[1])
@@ -17,6 +17,5 @@ def main():
     except:
         print("Input Error")
 
-#-- Main-End --#
 if __name__ == '__main__':
 	main()

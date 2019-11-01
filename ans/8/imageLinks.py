@@ -1,5 +1,3 @@
-# -*- coding: UTF-8 -*-
-from __future__ import with_statement
 import urllib.request
 from bs4 import BeautifulSoup
 import ssl

@@ -6,10 +6,10 @@ def main():
     try:
         no = sys.argv[1]
 
-        name,tell = empSearch(no)
+        name,tel = empSearch(no)
 
         print("Employee Name: ",name)
-        print("Employee Tell: ",tell)
+        print("Employee Tel: ",tel)
     except:
         print("Input Error")
 

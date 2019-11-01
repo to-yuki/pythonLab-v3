@@ -6,36 +6,33 @@ class MyThread(Thread):
 
     # 表示メッセージ
     __msg = None
-    # スリープタイム
+    # スリープ時間
     __sec = 1
 
     # スレッド化する関数
     def run(self):
-        # __sec秒間隔で 'T1' を表示
+        # __sec秒間隔で__msgを表示
         for i in range(5):
             sleep(self.__sec)
             print(self.__msg + ' '),
 
     # プロパティ設定関数
     def setMsgSec(self,msg,sec):
-        self.__msg=msg
+        self.__msg = msg
         self.__sec = sec
 
 def main():
-    # T1 スレッドの作成と開始
-    myThread = MyThread()
+    myThread = MyThread() # スレッドのインスタンス化
     myThread.setMsgSec('T1',1)
-    myThread.start()
+    myThread.start() # スレッドの起動
 
-    # T1 スレッドの作成と開始
-    myThread2 = MyThread()
+    myThread2 = MyThread() # スレッドのインスタンス化
     myThread2.setMsgSec('T2',2)
-    myThread2.start()
+    myThread2.start() # スレッドの起動
     
-    # 各スレッドの待ち合わせ
-    myThread.join()
+    myThread.join() # myThreadスレッドの終了待ち合わせ
     print('[T1 スレッド終了]')
-    myThread2.join()
+    myThread2.join() # myThread2スレッドの終了待ち合わせ
     print('[T2 スレッド終了]')
 
 # メインスレッド関数を呼び出し

@@ -12,6 +12,3 @@ print(data2,end=' ')
 print('の合計は ',end=' ')
 print(data_sum,end=' ')
 print('です。')
-
-# format()で表示位置を指定して出力
-#print('{0} と {1} の合計は {2} です。'.format(data1, data2, data_sum)) 

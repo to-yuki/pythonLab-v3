@@ -1,23 +1,22 @@
-# Class Defin.
-class Employee:  # Super Class
+class Employee: # Employeeクラスの定義（スーパークラス）
 	
-	__money=0
+	__salary=0 # 給料
 
-	def base(self,base):
-		self.__money=base
+	def setSalary(self,amount): # 給料設定用メソッド
+		self.__salary=amount
  
-	def pay(self):
-		print('Total Salary Pay --> ' +str(int(self.__money)))
+	def dispSalary(self):
+		print('Total Salary  --> ' + str(int(self.__salary)))
 
-class Manager(Employee):  # Class Inheritance(Sub Class)
-	def base(self,base):
-		super().base(base*1.5) # Super Class call method.
+class Manager(Employee): # Managerクラスの定義（サブクラス）
+	def setSalary(self,amount): # 給料設定用メソッドのオーバーライド
+		super().setSalary(amount*1.5) # Managerの場合には給料を1.5倍にする
 
-objs = [Employee(),Manager()]
+objs = [Employee(),Manager()] # EmployeeとManagerが混在するリスト
 
 for o in objs:
-	print('--------------')
-	print('pay():'),
-	o.base(300000.0)  # Polymorphism Code
-	o.pay()
-
+	print('----' + str(o)) # 対象のオブジェクトを文字列化
+	print('setSalary(300000.0):'),
+	o.setSalary(300000.0)  # ポリモフィズムを使用した同名のメソッド呼び出し
+	print('dispSalary():')
+	o.dispSalary()

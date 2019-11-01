@@ -30,4 +30,3 @@ class Product:
     
     def getPrice(self):
         return self.__price
-        

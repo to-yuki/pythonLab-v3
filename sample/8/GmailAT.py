@@ -1,5 +1,4 @@
-# GMail簡易送信モジュール
-import gmail
+import gmail # GMail簡易送信モジュール
 import getpass
 
 # Gmailアカウント情報

@@ -1,6 +1,6 @@
 import codecs, sys
 
-# 2つの値を比較する関数。
+# 2つの値を比較する関数
 def compair(val1, val2):
     if val1 > val2:
         return val1
@@ -13,10 +13,10 @@ with codecs.open(sys.argv[1], 'r', sys.argv[2]) as file:
     count = 0
     for line in file:
         if count == 0: # 1行目の日付データのみ、別に格納する
-            date = line.strip().split(',')
+            date = line.strip().split(',') #strip()で前後の不要なエスケープ文字や空白を除去
             count += 1
         else:
-            data_list.append(line.strip().split(',')) #strip()で行末の不要の文字列を除去
+            data_list.append(line.strip().split(',')) #strip()で前後の不要なエスケープ文字や空白を除去
 
 for city_data in data_list:
     # リスト型データの先頭の要素は都市名

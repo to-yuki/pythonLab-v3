@@ -1,5 +1,7 @@
-# 8行目に対応する引数を2つ持つ display()関数を定義してください。
-def display(day,weather):
+# 7行目の呼び出しに対応する display() 関数を定義してください。
     print(day + "'s weather is " + weather + ".")
 
-# display関数を呼び出すコード。
+# display関数を呼び出すコード
+day = "Today"
+weather = "rain"
+display(day,weather)

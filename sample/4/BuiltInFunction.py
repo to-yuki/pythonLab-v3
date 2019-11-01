@@ -1,29 +1,27 @@
-# from __future__ import print_function #Python2.x
-
-print('Hello Python',end=' ') # end='' endcode setting.
+print('Hello Python',end=' ') # 最後の文字を改行からスペースへ
 print('World!')
 
 count = len('Python')
-print(count) # count String : 6
+print(count) # 文字数 6
 
 list = range(1,5,1)
 
 count = len(list)
-print(count) # count list : 4
+print(count) # 要素数 4
 
 conv = str(123)
 
-print('Convert String ' + conv)
+print('Convert String ' + conv) #文字同士の結合は可能
 
-#print('NotConvert String ' + 123) # Error Code
+#print('NotConvert String ' + 123) # 文字と数値の結合は不可
 
 i = int('123')
 
 ans = i + 123
 
-print(ans)
+print(ans) # 数値同士の計算は可能
 
-#print('123' + 123) # Error Code
+#print('123' + 123) # 文字と数値の結合は不可
 
 f = float('123.0')
 ansf = f + 123.0
@@ -39,5 +37,5 @@ print('right:{:>10}'.format(ansf)) # 右寄せ
 
 print('{1} , {0}'.format(ansf, ans)) # 表示位置指定
 
-exit(0)
+exit(0) # アプリケーションの終了
 
