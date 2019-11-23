@@ -1,6 +1,7 @@
 import urllib.request
 from bs4 import BeautifulSoup
 import ssl
+import locale
 
 # CA認証局のカスタムCert設定
 ctx = ssl.create_default_context(cafile='cacert.pem')
