@@ -8,5 +8,6 @@ map = {1:'America',39:'Italia',81:'Japan'}
 for cun in map:
 	print(map[cun])
 
+# Key Value Loop Sample
 #for key,value in map.items():
 #	print(key , " : " , value)
